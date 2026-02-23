@@ -17,7 +17,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-js: '20'
+          node-version: '20'
       
       - name: 从 Worker 下载并保存文件
         run: |
@@ -27,6 +27,7 @@ jobs:
           # 获取文件列表
           echo "获取文件列表..."
           curl -s "$WORKER_URL/list" > file-list.json
+          cat file-list.json
           
           # 解析并下载文件
           node << 'EOF'
@@ -92,7 +93,10 @@ jobs:
               await processDirectory(directory, files);
             }
             console.log('\n全部完成！');
-          })();
+          })().catch(err => {
+            console.error('错误:', err);
+            process.exit(1);
+          });
           EOF
       
       - name: 提交更改
