@@ -1,0 +1,17 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"FriendLevel":[
+		{ "ConfID": 1, "Level": 1, "Name": "君子之交", "LevelUpExp": 100, "LevelUpExpTotal": 100 },
+		{ "ConfID": 2, "Level": 2, "Name": "君子之交", "LevelUpExp": 100, "LevelUpExpTotal": 200 },
+		{ "ConfID": 3, "Level": 3, "Name": "总角之好", "LevelUpExp": 100, "LevelUpExpTotal": 300 },
+		{ "ConfID": 4, "Level": 4, "Name": "总角之好", "LevelUpExp": 100, "LevelUpExpTotal": 400 },
+		{ "ConfID": 5, "Level": 5, "Name": "志同道合", "LevelUpExp": 100, "LevelUpExpTotal": 500 },
+		{ "ConfID": 6, "Level": 6, "Name": "志同道合", "LevelUpExp": 100, "LevelUpExpTotal": 600 },
+		{ "ConfID": 7, "Level": 7, "Name": "契合金兰", "LevelUpExp": 100, "LevelUpExpTotal": 700 },
+		{ "ConfID": 8, "Level": 8, "Name": "契合金兰", "LevelUpExp": 100, "LevelUpExpTotal": 800 },
+		{ "ConfID": 9, "Level": 9, "Name": "高山流水", "LevelUpExp": 100, "LevelUpExpTotal": 900 },
+		{ "ConfID": 10, "Level": 10, "Name": "高山流水", "LevelUpExp": 100, "LevelUpExpTotal": 1000 }
+	]}
