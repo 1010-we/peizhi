@@ -1,0 +1,24 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"PVConf":[
+		{ "PVID": 3, "PVNames":[ "qhzzPV", "qhzznhPV", "qhzzwqPV" ], "ModeIDs":[ 82, 83 ] },
+		{ "PVID": 4, "PVNames":[ "pv_zhulutianxia_01" ], "ModeIDs":[ 150 ] },
+		{ "PVID": 5, "PVNames":[ "pv_zhulutianxia_01" ], "ModeIDs":[ 151 ] },
+		{ "PVID": 6, "PVNames":[ "pv_zizouqi_01" ], "ModeIDs":[ 160, 161 ] },
+		{ "PVID": 7, "PVNames":[ "binglinchengxia" ], "ModeIDs":[ 28 ] },
+		{ "PVID": 8, "PVNames":[ "sbfmPV2" ], "ModeIDs":[ 170 ] },
+		{ "PVID": 9, "PVNames":[ "fhltPV" ], "ModeIDs":[ 31 ] },
+		{ "PVID": 10, "PVNames":[ "zzhlPV" ], "ModeIDs":[ 84 ] },
+		{ "PVID": 11, "PVNames":[ "xnox2021" ], "ModeIDs":[ 90 ] },
+		{ "PVID": 12, "PVNames":[ "TianShuLuanDou" ], "ModeIDs":[ 81 ] },
+		{ "PVID": 13, "PVNames":[ "ns2021PV" ], "ModeIDs":[ 23 ] },
+		{ "PVID": 14, "PVNames":[ "140" ], "ModeIDs":[ 141, 142 ] },
+		{ "PVID": 15, "PVNames":[ "qgPV" ], "ModeIDs":[ 71 ] },
+		{ "PVID": 16, "PVNames":[ "kb2021PV" ], "ModeIDs":[ 85, 86 ] },
+		{ "PVID": 17, "PVNames":[ "wuliuqi" ], "ModeIDs":[ 91 ] },
+		{ "PVID": 18, "PVNames":[ "lz2021PV" ], "ModeIDs":[ 80 ] },
+		{ "PVID": 19, "PVNames":[ "gx2021PV" ], "ModeIDs":[ 87 ] },
+		{ "PVID": 20, "PVNames":[ "ns2022PV" ], "ModeIDs":[ 32, 33 ] },
+		{ "PVID": 21, "PVNames":[ "zizouqi" ], "ModeIDs":[ 401 ], "StartTime": "2025-03-01 08:00:00" }
+	]}
