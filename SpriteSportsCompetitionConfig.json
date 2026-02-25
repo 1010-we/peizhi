@@ -1,0 +1,46 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"SpriteSportsCompetitionActivityConf":[
+		{ "ConfID": 1, "StartTimeStr": "2023-09-15 10:00:00", "EndTimeStr": "2023-10-08 23:59:59", "CeremonyRewardConf":[ { "ItemID": 710299, "ItemNum": 10 } ], "SpriteSportsStageTimeConf":[ { "Typ": 1, "StartTimeStr": "2023-09-15 10:00:00", "EndTimeStr": "2023-10-08 23:59:59" }, { "Typ": 2, "StartTimeStr": "2023-09-23 10:00:00", "EndTimeStr": "2023-10-08 23:59:59" } ], "UnlockConsumeItem":[ { "ItemID": 710299, "ItemNum": 10 } ], "CompetitionRewardItemConf":[ { "Typ": 1, "Times": 2, "ItemID": 710299, "ItemNum": 10 }, { "Typ": 2, "Times": 2, "ItemID": 710300, "ItemNum": 10 } ], "OfficialOpenDay": 16, "OfficialCompetitionOpenConf":[ { "Day": 1, "Typ": 1 }, { "Day": 2, "Typ": 2 }, { "Day": 3, "Typ": 3 }, { "Day": 4, "Typ": 1 }, { "Day": 5, "Typ": 2 }, { "Day": 6, "Typ": 3 }, { "Day": 7, "Typ": 1 }, { "Day": 8, "Typ": 2 }, { "Day": 9, "Typ": 3 }, { "Day": 10, "Typ": 1 }, { "Day": 11, "Typ": 2 }, { "Day": 12, "Typ": 3 }, { "Day": 13, "Typ": 1 }, { "Day": 14, "Typ": 2 }, { "Day": 15, "Typ": 3 }, { "Day": 16, "Typ": 1 } ], "RankRefreshPeriod": 20, "RankShowNum": 100, "RankRewardTimeStr": "01:00:00", "CeremonyDescSetting":[ { "Desc": "欢迎来到将灵运动会~" }, { "Desc": "蹴鞠赛事——在规定时间内踢进五球，用时越短越好。地图上可以上下左右自由移动，要小心躲避障碍！", "Img": "guize_cuju" }, { "Desc": "田径赛事——在规定时间内尽可能向前冲刺，跑得越远越好。积攒能量可以释放冲刺，注意跳开路障哦~", "Img": "guize_tianjing" }, { "Desc": "射箭赛事——在规定时间内射出所有箭，每支命中靶子的箭都会累计分数。拖动射箭区域调整方向和力度，一支箭可以命中多个靶子。", "Img": "guize_shejian" } ] }
+	], 
+	"SpriteTDClientGlobalConf":[
+		{ "VistaSpeedScale": 0.2, "SpriteBaseMoveSpeed": 300, "SpriteJumpSpeed": 700, "GravityUp": 800, "GravityDown": 1200, "MobileInitYPos": 150, "MobileSpriteScale": 0.55000000000000004, "SpriteCollider":[ 80, 160 ], "EnergyCollider":[ 50, 50 ], "BlockCollider":[ 50, 180 ], "BlockTime": 2, "BlockSpeed": 50, "EnergyItemAdd": 10, "EnergyTime": 6, "EnergySpeed": 800, "PCSpriteInitX": 300, "PCSpriteInitY": 750, "PCOffsetY": 150, "GameTime": 30, "PCSpriteScale": 0.55000000000000004 }
+	], 
+	"SpriteTrackfieldItemConf":[
+		{ "ID": 1, "StageType": 1, "Distance": 0, "Height": 200 },
+		{ "ID": 2, "StageType": 1, "Distance": 0, "Height": 280 },
+		{ "ID": 3, "StageType": 1, "Distance": 0, "Height": 360 },
+		{ "ID": 4, "StageType": 2, "Distance": 0, "Height": 0 },
+		{ "ID": 5, "StageType": 1, "Distance": 0, "Height": 420 },
+		{ "ID": 6, "StageType": 1, "Distance": 100, "Height": 360 },
+		{ "ID": 7, "StageType": 1, "Distance": 100, "Height": 280 },
+		{ "ID": 8, "StageType": 1, "Distance": 100, "Height": 200 },
+		{ "ID": 9, "RefreshID": 1, "StageType": 3, "Distance": 700, "Height": 0, "Children":[ 1, 8 ] },
+		{ "ID": 10, "RefreshID": 2, "StageType": 3, "Distance": 1100, "Height": 0, "Children":[ 1, 2, 7, 8 ] },
+		{ "ID": 11, "RefreshID": 3, "StageType": 3, "Distance": 1500, "Height": 0, "Children":[ 1, 2, 4, 5, 6, 7, 8 ] },
+		{ "ID": 12, "RefreshID": 4, "StageType": 3, "Distance": 1900, "Height": 0, "Children":[ 1, 2, 3, 4, 6, 7, 8 ] },
+		{ "ID": 13, "RefreshID": 5, "StageType": 3, "Distance": 2300, "Height": 0, "Children":[ 1, 2, 3, 4, 8 ] },
+		{ "ID": 14, "RefreshID": 6, "StageType": 3, "Distance": 2700, "Height": 0, "Children":[ 1, 2, 3, 4, 5, 6, 7, 8 ] },
+		{ "ID": 15, "RefreshID": 7, "StageType": 3, "Distance": 3100, "Height": 0, "Children":[ 3, 4, 5, 6, 7, 8 ] },
+		{ "ID": 16, "RefreshID": 8, "StageType": 3, "Distance": 3500, "Height": 0, "Children":[ 1, 2, 3, 4, 6, 7, 8 ] },
+		{ "ID": 17, "RefreshID": 9, "StageType": 3, "Distance": 3900, "Height": 0, "Children":[ 3, 4, 5, 6, 7, 8 ] },
+		{ "ID": 18, "RefreshID": 10, "StageType": 3, "Distance": 4300, "Height": 0, "Children":[ 1, 2, 3, 4, 5, 6, 7, 8 ] },
+		{ "ID": 19, "RefreshID": 11, "StageType": 3, "Distance": 4700, "Height": 0, "Children":[ 1, 2, 3, 4, 6, 7, 8 ] },
+		{ "ID": 20, "RefreshID": 12, "StageType": 3, "Distance": 5000, "Height": 0, "Children":[ 1, 2, 3, 4, 8 ] },
+		{ "ID": 21, "RefreshID": 13, "StageType": 3, "Distance": 5200, "Height": 0, "Children":[ 1, 2, 7, 8 ] },
+		{ "ID": 22, "RefreshID": 14, "StageType": 3, "Distance": 5400, "Height": 0, "Children":[ 1, 8 ] }
+	], 
+	"SpriteSportsFootballGlobal":[
+		{ "TargetNum": 5, "PCScale": 120, "SkillRange":[ 1, 3 ], "ObstacleRange":[ 1, 3 ], "BallSpeed": 1000, "PlayerSpeed": 100, "KeeperSpeed": 100, "SkillInterval": 2000, "PlayerSpriteID": 704 }
+	], 
+	"SpriteSportsFootballItemConf":[
+		{ "ID": 1, "SkillName": "障碍", "IsSKill": 0, "Range":[ { "X": 1, "Y": 1 } ] },
+		{ "ID": 2, "SkillName": "球", "IsSKill": 0, "Range":[ { "X": 1, "Y": 1 } ] },
+		{ "ID": 3, "SkillName": "火柱", "IsSKill": 1, "WarnTime": 800, "PreTime": 200, "Range":[ { "X": 1, "Y": 1 } ], "Count": 1, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_huozhu", "CRScale": 70 }, "ExeSoundRes": 1021, "Damage": 1500 }
+	], 
+	"SpriteSportsArcheryGlobal":[
+		{ "G": 40, "MobileScale": 1, "MinSpeed": 700, "MaxSpeed": 1100, "GuideLineNum": 10, "MarkDuration": 0.3, "TargetRefreshDuration": 6, "TargetHeightRange":[ 50, 350 ], "TargetScoreRange":[ 10, 100 ], "PlayCount": 10, "PlayTime": 120 }
+	]}
