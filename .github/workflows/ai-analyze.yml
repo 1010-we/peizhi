@@ -1,0 +1,75 @@
+name: AI 代码分析助手
+
+on:
+  workflow_dispatch:
+    inputs:
+      question:
+        description: '你想问什么问题？'
+        required: true
+        type: string
+      file:
+        description: '要分析的文件（可选，如 src/main.py）'
+        required: false
+        type: string
+
+jobs:
+  ai-analyze:
+    runs-on: ubuntu-latest
+    env:
+      READONLY_TOKEN: ${{ secrets.READONLY_TOKEN }}
+      AI_API_URL: ${{ secrets.AI_API_URL }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.READONLY_TOKEN }}
+          fetch-depth: 1
+
+      - name: 读取代码内容
+        id: read-code
+        run: |
+          if [ "${{ github.event.inputs.file }}" != "" ]; then
+            CONTENT=$(cat "${{ github.event.inputs.file }}" 2>/dev/null || echo "文件不存在")
+            echo "content<<EOF" >> $GITHUB_OUTPUT
+            echo "$CONTENT" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "content=未指定文件" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 调用 AI 分析
+        id: ai-call
+        run: |
+          QUESTION="${{ github.event.inputs.question }}"
+          CONTENT="${{ steps.read-code.outputs.content }}"
+          
+          RESPONSE=$(curl -s -X POST "$AI_API_URL/chat/completions" \
+            -H "Authorization: Bearer $AI_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "model": "grok-4.20-beta",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "你是一个专业的代码分析助手。请用中文回答用户的问题。"
+                },
+                {
+                  "role": "user",
+                  "content": "问题: '"$QUESTION"'\n\n代码内容:\n'"$CONTENT"'\n\n请分析这段代码并回答问题。"
+                }
+              ]
+            }')
+          
+          echo "response<<EOF" >> $GITHUB_OUTPUT
+          echo "$RESPONSE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: 输出分析结果
+        run: |
+          echo "## AI 分析结果" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.ai-call.outputs.response }}" | jq -r '.choices[0].message.content // .error.message // .' >> $GITHUB_STEP_SUMMARY
+          echo ""
+          echo "完整响应:"
+          echo "${{ steps.ai-call.outputs.response }}"
