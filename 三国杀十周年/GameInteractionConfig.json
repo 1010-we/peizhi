@@ -1,0 +1,14 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"GameInteraction":[
+		{ "ID": 1, "TriggerText": "牛啊牛啊！", "TriggerType": 1, "TriggerSound": "chufa1", "ReplayText": "过奖过奖~", "ReplayType": 2, "ReplaySound": "huifu1", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 2, "TriggerText": "干的漂亮！", "TriggerType": 1, "TriggerSound": "chufa2", "ReplayText": "合作愉快~", "ReplayType": 3, "ReplaySound": "huifu2", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 3, "TriggerText": "有你真好~", "TriggerType": 1, "TriggerSound": "chufa3", "ReplayText": "我保你！", "ReplayType": 3, "ReplaySound": "huifu3", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 4, "TriggerText": "抱拳了老铁！", "TriggerType": 2, "TriggerSound": "chufa4", "ReplayText": "那必须的~", "ReplayType": 2, "ReplaySound": "huifu4", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 5, "TriggerText": "掌控雷电的神！", "TriggerType": 1, "TriggerSound": "chufa5", "ReplayText": "尽在掌控~", "ReplayType": 3, "ReplaySound": "huifu5", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 6, "TriggerText": "自作自受！", "TriggerType": 5, "TriggerSound": "chufa6", "ReplayText": "活该被劈！", "ReplayType": 5, "ReplaySound": "huifu6", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 7, "TriggerText": "运气爆棚！", "TriggerType": 3, "TriggerSound": "chufa7", "ReplayText": "好运常在~", "ReplayType": 3, "ReplaySound": "huifu7", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 8, "TriggerText": "老板大气！", "TriggerType": 2, "TriggerSound": "chufa8", "ReplayText": "别跟我客气！", "ReplayType": 3, "ReplaySound": "huifu8", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] },
+		{ "ID": 9, "TriggerText": "靠你了！", "TriggerType": 2, "TriggerSound": "chufa9", "ReplayText": "拿捏~", "ReplayType": 4, "ReplaySound": "huifu9", "Rule": 1, "ButtonTime": 5, "ProtectTime": 3, "AssertMode":[ 8, 9, 191 ] }
+	]}
