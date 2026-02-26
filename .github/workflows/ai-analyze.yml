@@ -55,16 +55,12 @@ jobs:
           RESPONSE=$(curl -s -X POST "${AI_API_URL}/chat/completions" \
             -H "Authorization: Bearer ${AI_API_KEY}" \
             -H "Content-Type: application/json" \
-            -d "{\"model\":\"grok-2\",\"messages\":[{\"role\":\"system\",\"content\":\"你是一个专业的代码分析助手。请用中文简洁回答用户的问题。\"},{\"role\":\"user\",\"content\":\"问题: ${QUESTION}\\n\\n仓库结构:\\n${CONTENT}\"}]}")
+            -d "{\"model\":\"grok-4\",\"messages\":[{\"role\":\"system\",\"content\":\"你是一个专业的代码分析助手。请用中文简洁回答用户的问题。\"},{\"role\":\"user\",\"content\":\"问题: ${QUESTION}\\n\\n仓库结构:\\n${CONTENT}\"}]}")
           
-          echo "AI 回复:" 
-          echo "$RESPONSE"
-          echo "response<<EOF" >> $GITHUB_OUTPUT
-          echo "$RESPONSE" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "$RESPONSE" > ai_response.json
+          cat ai_response.json
 
       - name: 输出结果
         run: |
           echo "## AI 分析结果"
-          echo ""
-          echo "${{ steps.ai-call.outputs.response }}"
+          cat ai_response.json
