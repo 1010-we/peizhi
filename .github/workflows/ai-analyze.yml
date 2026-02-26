@@ -7,8 +7,8 @@ on:
         description: '你想问什么问题？'
         required: true
         type: string
-      file:
-        description: '要分析的文件（可选，如 src/main.py）'
+      path:
+        description: '文件或目录路径（可选，如 src/ 或 三国杀十周年）'
         required: false
         type: string
 
@@ -30,17 +30,31 @@ jobs:
       - name: 读取代码内容
         id: read-code
         run: |
-          if [ -n "${{ github.event.inputs.file }}" ]; then
-            if [ -f "${{ github.event.inputs.file }}" ]; then
-              CONTENT=$(cat "${{ github.event.inputs.file }}" | head -c 10000)
+          INPUT_PATH="${{ github.event.inputs.path }}"
+          
+          if [ -n "$INPUT_PATH" ]; then
+            if [ -f "$INPUT_PATH" ]; then
+              CONTENT=$(cat "$INPUT_PATH" | head -c 15000)
               echo "content<<EOF" >> $GITHUB_OUTPUT
-              echo "$CONTENT" >> $GITHUB_OUTPUT
+              echo "文件: $INPUT_PATH\n\n$CONTENT" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            elif [ -d "$INPUT_PATH" ]; then
+              CONTENT=$(ls -la "$INPUT_PATH")
+              echo "content<<EOF" >> $GITHUB_OUTPUT
+              echo "目录: $INPUT_PATH\n\n$CONTENT" >> $GITHUB_OUTPUT
               echo "EOF" >> $GITHUB_OUTPUT
             else
-              echo "content=文件不存在: ${{ github.event.inputs.file }}" >> $GITHUB_OUTPUT
+              echo "指定的路径不存在: $INPUT_PATH"
+              CONTENT=$(ls -la)
+              echo "content<<EOF" >> $GITHUB_OUTPUT
+              echo "指定的路径不存在: $INPUT_PATH\n\n当前仓库根目录:\n$CONTENT" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
             fi
           else
-            echo "content=未指定文件，请输入文件名" >> $GITHUB_OUTPUT
+            CONTENT=$(ls -la)
+            echo "content<<EOF" >> $GITHUB_OUTPUT
+            echo "仓库根目录:\n$CONTENT" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           fi
 
       - name: 调用 AI 分析
@@ -61,7 +75,7 @@ jobs:
                 },
                 {
                   "role": "user",
-                  "content": "问题: '"$QUESTION"'\n\n代码内容:\n'"$CONTENT"'\n\n请分析这段代码并回答问题。"
+                  "content": "问题: '"$QUESTION"'\n\n代码/目录内容:\n'"$CONTENT"'\n\n请分析并回答问题。"
                 }
               ]
             }')
@@ -73,4 +87,5 @@ jobs:
       - name: 输出分析结果
         run: |
           echo "## AI 分析结果"
+          echo ""
           echo "${{ steps.ai-call.outputs.response }}"
