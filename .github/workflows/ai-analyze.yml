@@ -7,10 +7,6 @@ on:
         description: '你想问什么问题？'
         required: true
         type: string
-      path:
-        description: '文件或目录路径（可选，如 src/ 或 三国杀十周年）'
-        required: false
-        type: string
 
 jobs:
   ai-analyze:
@@ -27,35 +23,28 @@ jobs:
           token: ${{ secrets.READONLY_TOKEN }}
           fetch-depth: 1
 
-      - name: 读取代码内容
+      - name: 读取仓库结构
         id: read-code
         run: |
-          INPUT_PATH="${{ github.event.inputs.path }}"
+          echo "仓库根目录:" > result.txt
+          ls -la >> result.txt
           
-          if [ -n "$INPUT_PATH" ]; then
-            if [ -f "$INPUT_PATH" ]; then
-              CONTENT=$(cat "$INPUT_PATH" | head -c 15000)
-              echo "content<<EOF" >> $GITHUB_OUTPUT
-              echo "文件: $INPUT_PATH\n\n$CONTENT" >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
-            elif [ -d "$INPUT_PATH" ]; then
-              CONTENT=$(ls -la "$INPUT_PATH")
-              echo "content<<EOF" >> $GITHUB_OUTPUT
-              echo "目录: $INPUT_PATH\n\n$CONTENT" >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
-            else
-              echo "指定的路径不存在: $INPUT_PATH"
-              CONTENT=$(ls -la)
-              echo "content<<EOF" >> $GITHUB_OUTPUT
-              echo "指定的路径不存在: $INPUT_PATH\n\n当前仓库根目录:\n$CONTENT" >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
-            fi
-          else
-            CONTENT=$(ls -la)
-            echo "content<<EOF" >> $GITHUB_OUTPUT
-            echo "仓库根目录:\n$CONTENT" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+          if [ -d "三国杀十周年" ]; then
+            echo "" >> result.txt
+            echo "=== 三国杀十周年 目录 ===" >> result.txt
+            ls "三国杀十周年" | head -20 >> result.txt
           fi
+          
+          if [ -d "ol" ]; then
+            echo "" >> result.txt
+            echo "=== ol 目录 ===" >> result.txt
+            ls "ol" | head -20 >> result.txt
+          fi
+          
+          cat result.txt
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          cat result.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: 调用 AI 分析
         id: ai-call
@@ -63,28 +52,18 @@ jobs:
           QUESTION="${{ github.event.inputs.question }}"
           CONTENT="${{ steps.read-code.outputs.content }}"
           
-          RESPONSE=$(curl -s -X POST "$AI_API_URL/chat/completions" \
-            -H "Authorization: Bearer $AI_API_KEY" \
+          RESPONSE=$(curl -s -X POST "${AI_API_URL}/chat/completions" \
+            -H "Authorization: Bearer ${AI_API_KEY}" \
             -H "Content-Type: application/json" \
-            -d '{
-              "model": "grok-4.20-beta",
-              "messages": [
-                {
-                  "role": "system",
-                  "content": "你是一个专业的代码分析助手。请用中文回答用户的问题。"
-                },
-                {
-                  "role": "user",
-                  "content": "问题: '"$QUESTION"'\n\n代码/目录内容:\n'"$CONTENT"'\n\n请分析并回答问题。"
-                }
-              ]
-            }')
+            -d "{\"model\":\"grok-2\",\"messages\":[{\"role\":\"system\",\"content\":\"你是一个专业的代码分析助手。请用中文简洁回答用户的问题。\"},{\"role\":\"user\",\"content\":\"问题: ${QUESTION}\\n\\n仓库结构:\\n${CONTENT}\"}]}")
           
+          echo "AI 回复:" 
+          echo "$RESPONSE"
           echo "response<<EOF" >> $GITHUB_OUTPUT
           echo "$RESPONSE" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: 输出分析结果
+      - name: 输出结果
         run: |
           echo "## AI 分析结果"
           echo ""
