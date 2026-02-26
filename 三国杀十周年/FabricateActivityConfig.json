@@ -1,8 +1,0 @@
-{
-	"Tool": "github.com/davyxu/tabtoy",
-	"Version": "3.1.3",
-	"DoNotUseThis":[
-	], 
-	"FabricateActivityConf":[
-		{ "ActivityID": 1, "StartTimeStr": "2025-09-24 04:00:00", "EndTimeStr": "2025-10-10 23:59:59", "OpenLevel": 7, "FlowerDropID": 310073, "DropPercent": 30, "PresentConf":[ { "IsFlower": 1, "ItemID": 710040, "Num": 1 }, { "IsFlower": 0, "ItemID": 710188, "Num": 1 } ], "DailyDropNum": 1, "ActiveRewardItem":[ { "ItemID": 710040, "Num": 101 }, { "ItemID": 610001, "Num": 10 }, { "ItemID": 830430, "Num": 2 } ], "RegressionRewardItem":[ { "ItemID": 4015321, "Num": 1 }, { "ItemID": 4013346, "Num": 1 }, { "ItemID": 4011415, "Num": 1 }, { "ItemID": 710040, "Num": 101 }, { "ItemID": 610001, "Num": 10 }, { "ItemID": 830430, "Num": 2 } ], "AttendStartTimeStr": "2025-09-29 00:00:00", "AttendEndTimeStr": "2025-10-01 23:59:59", "AttendRewardInfo":[ { "Day": 1, "ItemID": 311018, "Num": 1 }, { "Day": 2, "ItemID": 201377, "Num": 10 }, { "Day": 3, "ItemID": 311019, "Num": 1 } ], "LimitStartTimeStr": "2025-10-01 00:00:00", "LimitEndTimeStr": "2025-10-10 23:59:59", "ModeIDs":[ 4, 8, 36, 190, 191 ], "NationalDrawTimeStr": "2025-10-01 00:00:00", "NationalScoreItemID": 799222, "NationalDropID":[ { "Score": 0, "DropID": 310074 }, { "Score": 50, "DropID": 310077 } ], "MidautumnDrawTimeStr": "2025-10-06 00:00:00", "MidautumnScoreItemID": 799223, "MidautumnDropID":[ { "Score": 0, "DropID": 310075 }, { "Score": 30, "DropID": 310078 } ], "GuideTip":[ { "Typ": 26, "Note": "残局试炼已开放" }, { "Typ": 27, "Note": "看看参会有奖\n有什么好东西" }, { "Typ": 28, "Note": "快来佳节共庆\n共饮赏月啦" }, { "Typ": 29, "Note": "有新开的限时玩法\n在等你噢" } ], "EasterEggTip":[ "将军已经和我们\n互动了{0}次啦！", "桃酒双生\n妙手连连", "国庆共饮\n好运翻倍", "中秋赏月\n抽奖到手", "无中生有\n疯狂摸牌", "国庆当天\n有什么好东西呢", "首破\n一骑当千！", "聪明人的残局试炼" ] }
-	]}
