@@ -30,13 +30,17 @@ jobs:
       - name: 读取代码内容
         id: read-code
         run: |
-          if [ "${{ github.event.inputs.file }}" != "" ]; then
-            CONTENT=$(cat "${{ github.event.inputs.file }}" 2>/dev/null || echo "文件不存在")
-            echo "content<<EOF" >> $GITHUB_OUTPUT
-            echo "$CONTENT" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            if [ -f "${{ github.event.inputs.file }}" ]; then
+              CONTENT=$(cat "${{ github.event.inputs.file }}" | head -c 10000)
+              echo "content<<EOF" >> $GITHUB_OUTPUT
+              echo "$CONTENT" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            else
+              echo "content=文件不存在: ${{ github.event.inputs.file }}" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "content=未指定文件" >> $GITHUB_OUTPUT
+            echo "content=未指定文件，请输入文件名" >> $GITHUB_OUTPUT
           fi
 
       - name: 调用 AI 分析
@@ -49,7 +53,7 @@ jobs:
             -H "Authorization: Bearer $AI_API_KEY" \
             -H "Content-Type: application/json" \
             -d '{
-              "model": "grok-4.20-beta",
+              "model": "grok-2-1212",
               "messages": [
                 {
                   "role": "system",
@@ -68,8 +72,5 @@ jobs:
 
       - name: 输出分析结果
         run: |
-          echo "## AI 分析结果" >> $GITHUB_STEP_SUMMARY
-          echo "${{ steps.ai-call.outputs.response }}" | jq -r '.choices[0].message.content // .error.message // .' >> $GITHUB_STEP_SUMMARY
-          echo ""
-          echo "完整响应:"
+          echo "## AI 分析结果"
           echo "${{ steps.ai-call.outputs.response }}"
