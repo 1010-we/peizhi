@@ -1,0 +1,28 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"RecommendGeneralConf":[
+		{ "GeneralID": 404350, "RechargeNum": 6, "WinRate": "75", "Source": "435" },
+		{ "GeneralID": 404040, "RechargeNum": 6, "WinRate": "80", "Source": "404" },
+		{ "GeneralID": 403020, "RechargeNum": 6, "WinRate": "80", "Source": "302" },
+		{ "GeneralID": 400360, "RechargeNum": 1888, "WinRate": "76", "Source": "36" },
+		{ "GeneralID": 400500, "RechargeNum": 6, "WinRate": "77", "Source": "50" },
+		{ "GeneralID": 400520, "RechargeNum": 6, "WinRate": "87", "Source": "52" },
+		{ "GeneralID": 400530, "RechargeNum": 2888, "WinRate": "85", "Source": "53" },
+		{ "GeneralID": 400550, "RechargeNum": 2888, "WinRate": "84", "Source": "55" },
+		{ "GeneralID": 400920, "RechargeNum": 2888, "WinRate": "83", "Source": "92" },
+		{ "GeneralID": 400940, "RechargeNum": 3888, "WinRate": "88", "Source": "94" },
+		{ "GeneralID": 400950, "RechargeNum": 2888, "WinRate": "82", "Source": "95" },
+		{ "GeneralID": 400960, "RechargeNum": 3888, "WinRate": "85", "Source": "96" },
+		{ "GeneralID": 400980, "RechargeNum": 1888, "WinRate": "78", "Source": "98" },
+		{ "GeneralID": 400990, "RechargeNum": 2888, "WinRate": "81", "Source": "99" },
+		{ "GeneralID": 401010, "RechargeNum": 2888, "WinRate": "82", "Source": "101" },
+		{ "GeneralID": 401020, "RechargeNum": 3888, "WinRate": "88", "Source": "102" },
+		{ "GeneralID": 401030, "RechargeNum": 2888, "WinRate": "82", "Source": "103" },
+		{ "GeneralID": 402880, "RechargeNum": 1888, "WinRate": "81", "Source": "288" },
+		{ "GeneralID": 402950, "RechargeNum": 1888, "WinRate": "75", "Source": "295" },
+		{ "GeneralID": 403050, "RechargeNum": 3888, "WinRate": "85", "Source": "305" },
+		{ "GeneralID": 403080, "RechargeNum": 3888, "WinRate": "86", "Source": "308" }
+	]}

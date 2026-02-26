@@ -1,0 +1,44 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"CribugMaiMenConf":[
+		{ "ConfID": 1, "Name": "仑泉", "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] },
+		{ "ConfID": 2, "Name": "玄骨", "UnlockConfID": 1, "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] },
+		{ "ConfID": 3, "Name": "朝迎风", "UnlockConfID": 2, "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] },
+		{ "ConfID": 4, "Name": "昆海", "UnlockConfID": 3, "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] },
+		{ "ConfID": 5, "Name": "幻血", "UnlockConfID": 4, "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] },
+		{ "ConfID": 6, "Name": "暮还松", "UnlockConfID": 5, "ConsumeItems":[ { "ItemID": 710115, "Num": 1 } ] }
+	], 
+	"CribugWenYaoConf":[
+		{ "ConfID": 1, "Category": 1, "Level": 1, "SkillID": 8554, "Name": "风系-民纹耀", "Desc": "锁定技，游戏开始时获得1张【闪】", "Resource": "1_1" },
+		{ "ConfID": 2, "Category": 1, "Level": 2, "UnlockLevel": 1, "SkillID": 8555, "Name": "风系-侠纹耀", "Desc": "锁定技，回合结束时获得1张【闪】", "Resource": "1_2" },
+		{ "ConfID": 3, "Category": 1, "Level": 3, "UnlockLevel": 2, "SkillID": 8556, "Name": "风系-将纹耀", "Desc": "锁定技，每回合限两次，你使用或打出【闪】时摸一张牌", "Resource": "1_3" },
+		{ "ConfID": 4, "Category": 2, "Level": 1, "SkillID": 8557, "Name": "林系-民纹耀", "Desc": "锁定技，游戏开始前获得一张【桃】", "Resource": "2_1" },
+		{ "ConfID": 5, "Category": 2, "Level": 2, "UnlockLevel": 1, "SkillID": 8558, "Name": "林系-侠纹耀", "Desc": "锁定技，体力和体力上限+1", "Resource": "2_2" },
+		{ "ConfID": 6, "Category": 2, "Level": 3, "UnlockLevel": 2, "SkillID": 8559, "Name": "林系-将纹耀", "Desc": "锁定技，回合开始时回复1点体力", "Resource": "2_3" },
+		{ "ConfID": 7, "Category": 3, "Level": 1, "SkillID": 8560, "Name": "火系-民纹耀", "Desc": "锁定技，游戏开始时获得一张【杀】", "Resource": "3_1" },
+		{ "ConfID": 8, "Category": 3, "Level": 2, "UnlockLevel": 1, "SkillID": 8561, "Name": "火系-侠纹耀", "Desc": "锁定技，回合开始时获得一张【杀】", "Resource": "3_2" },
+		{ "ConfID": 9, "Category": 3, "Level": 3, "UnlockLevel": 2, "SkillID": 8562, "Name": "火系-将纹耀", "Desc": "锁定技，你【杀】的伤害+1", "Resource": "3_3" },
+		{ "ConfID": 10, "Category": 4, "Level": 1, "SkillID": 8563, "Name": "山系-民纹耀", "Desc": "锁定技，游戏开始时获得1张随机防具牌", "Resource": "4_1" },
+		{ "ConfID": 11, "Category": 4, "Level": 2, "UnlockLevel": 1, "SkillID": 8564, "Name": "山系-侠纹耀", "Desc": "锁定技，每回合限一次，你拼点后摸一张牌", "Resource": "4_2" },
+		{ "ConfID": 12, "Category": 4, "Level": 3, "UnlockLevel": 2, "SkillID": 8565, "Name": "山系-将纹耀", "Desc": "锁定技，手牌数大于等于你的角色，计算与你的距离时+1", "Resource": "4_3" }
+	], 
+	"CribugWenYaoCategoryConf":[
+		{ "ConfID": 1, "Name": "风" },
+		{ "ConfID": 2, "Name": "林" },
+		{ "ConfID": 3, "Name": "火" },
+		{ "ConfID": 4, "Name": "山" }
+	], 
+	"CribugWenYaoLevelConf":[
+		{ "ConfID": 1, "Name": "民", "UnlockMaiMenID": 1, "ConsumeItems":[ { "ItemID": 710114, "Num": 10 } ] },
+		{ "ConfID": 2, "Name": "侠", "UnlockMaiMenID": 3, "ConsumeItems":[ { "ItemID": 710114, "Num": 30 } ] },
+		{ "ConfID": 3, "Name": "将", "UnlockMaiMenID": 5, "ConsumeItems":[ { "ItemID": 710114, "Num": 50 } ] }
+	], 
+	"CribugMaiShouConf":[
+		{ "ConfID": 1, "Name": "脉兽·风", "UnlockMaiMenID": 6, "ConsumeItems":[ { "ItemID": 710114, "Num": 100 } ], "SkillID": 8566, "SkillEffect": "maishouSkillFeng", "SkillEffectMobile": "SF_maishou_eff_feng", "Resource": "1" },
+		{ "ConfID": 2, "Name": "脉兽·林", "UnlockMaiMenID": 6, "ConsumeItems":[ { "ItemID": 710114, "Num": 100 } ], "SkillID": 8567, "SkillEffect": "maishouSkillLin", "SkillEffectMobile": "SF_maishou_eff_lin", "Resource": "2" },
+		{ "ConfID": 3, "Name": "脉兽·火", "UnlockMaiMenID": 6, "ConsumeItems":[ { "ItemID": 710114, "Num": 100 } ], "SkillID": 8568, "SkillEffect": "maishouSkillHuo", "SkillEffectMobile": "SF_maishou_eff_huo", "Resource": "3" },
+		{ "ConfID": 4, "Name": "脉兽·山", "UnlockMaiMenID": 6, "ConsumeItems":[ { "ItemID": 710114, "Num": 100 } ], "SkillID": 8569, "SkillEffect": "maishouSkillShan", "SkillEffectMobile": "SF_maishou_eff_tu", "Resource": "4" }
+	]}
