@@ -1,0 +1,144 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"GameNianShouQuestConf":[
+		{ "ID": 1, "Name": "快速捕捉", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "在10轮内捕捉年兽" },
+		{ "ID": 2, "Name": "全部击杀", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "不捕获并且击杀所有年兽和仆从" },
+		{ "ID": 3, "Name": "保护生肖", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "在生肖未阵亡的情况下获胜" },
+		{ "ID": 4, "Name": "毫发无伤", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "在不使用甘露的情况下获得胜利" },
+		{ "ID": 5, "Name": "速战速决", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "8轮之内获得胜利" },
+		{ "ID": 6, "Name": "速战速决", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "3轮内获得胜利" },
+		{ "ID": 7, "Name": "横扫千军", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "1个回合内击杀所有生肖兽" },
+		{ "ID": 8, "Name": "资源紧缺", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "牌堆没洗牌且剩余超过50张时获得胜利" },
+		{ "ID": 9, "Name": "大获全胜", "AccpetConsumeItem":[ { "ConfID": 1, "RewardMultiples": 100, "ItemID": 710037, "ItemNum": 10 }, { "ConfID": 2, "RewardMultiples": 200, "ItemID": 710037, "ItemNum": 20 }, { "ConfID": 3, "RewardMultiples": 500, "ItemID": 710037, "ItemNum": 50 }, { "ConfID": 4, "RewardMultiples": 1000, "ItemID": 710037, "ItemNum": 100 } ], "RewardItem":[ { "ItemID": 710088, "ItemNum": 1 } ], "Desc": "己方没有角色进入过濒死状态的情况下获胜" }
+	], 
+	"NianShouGeneralCardConf":[
+		{ "GeneralID": 6116, "Sort": 1 },
+		{ "GeneralID": 6117, "Sort": 2 },
+		{ "GeneralID": 6118, "Sort": 3 },
+		{ "GeneralID": 6119, "Sort": 4 },
+		{ "GeneralID": 6126, "Sort": 5 },
+		{ "GeneralID": 6127, "Sort": 6 },
+		{ "GeneralID": 6128, "Sort": 7 },
+		{ "GeneralID": 6129, "Sort": 8 }
+	], 
+	"GameGhostChaseConf":[
+		{ "GameDiffcultity": 1, "PlayerSeats":[ 0, 1, 2 ], "BossSeats":[ 3, 4, 5 ], "PlayerFirstHandCount": 4, "PlayerCharacterSlotCount": 4, "KillRewardHp": 1, "KillRewardDealCardCount": 2, "RoundConfID":[ 1, 4, 7 ], "TurnOrder":[ 4, 5, 0, 1, 2, 3 ], "GameAreaList":[ 11, 12, 13, 14 ] },
+		{ "GameDiffcultity": 2, "PlayerSeats":[ 0, 1, 2 ], "BossSeats":[ 3, 4, 5 ], "PlayerFirstHandCount": 4, "PlayerCharacterSlotCount": 4, "KillRewardHp": 1, "KillRewardDealCardCount": 2, "RoundConfID":[ 2, 5, 8 ], "TurnOrder":[ 4, 5, 0, 1, 2, 3 ], "GameAreaList":[ 11, 12, 13, 14 ] },
+		{ "GameDiffcultity": 3, "PlayerSeats":[ 0, 1, 2 ], "BossSeats":[ 3, 4, 5 ], "PlayerFirstHandCount": 4, "PlayerCharacterSlotCount": 4, "KillRewardHp": 1, "KillRewardDealCardCount": 2, "RoundConfID":[ 3, 6, 9 ], "TurnOrder":[ 4, 5, 0, 1, 2, 3 ], "GameAreaList":[ 11, 12, 13, 14 ] }
+	], 
+	"GameGhostChaseQuestConf":[
+		{ "ID": 1, "Name": "速战速决", "Desc": "不超过三轮的时间内获得胜利。", "ConditionType": 1, "Compare": 6, "Param": 3, "RewardRemoveSkill":[ 8022 ], "RewardItems":[ { "itemId": 710096, "num": 1 } ], "Resource": "1" },
+		{ "ID": 2, "Name": "物尽其用", "Desc": "第一次洗牌前获得胜利。", "ConditionType": 2, "Compare": 6, "Param": 1, "RewardRemoveSkill":[ 8022 ], "RewardItems":[ { "itemId": 710096, "num": 1 } ], "Resource": "2" },
+		{ "ID": 3, "Name": "速战速决", "Desc": "不超过四轮的时间内获得胜利。", "ConditionType": 1, "Compare": 6, "Param": 4, "RewardModifyFirstCardCount": 4, "RewardItems":[ { "itemId": 710096, "num": 1 } ], "Resource": "1" },
+		{ "ID": 4, "Name": "毫发无伤", "Desc": "不使用甘露的情况下获得胜利。", "ConditionType": 3, "Compare": 6, "Param": 0, "RewardModifyFirstCardCount": 4, "RewardItems":[ { "itemId": 710096, "num": 1 } ], "Resource": "3" },
+		{ "ID": 5, "Name": "物尽其用", "Desc": "第二次洗牌前获得胜利。", "ConditionType": 2, "Compare": 6, "Param": 2, "RewardModifyFirstCardCount": 4, "RewardItems":[ { "itemId": 710096, "num": 1 } ], "Resource": "2" }
+	], 
+	"GameHuLaoGuanQuestConf":[
+		{ "ID": 1, "Name": "速战速决", "Desc": "不超过四轮的时间内获得胜利。", "ConditionType": 1, "Compare": 6, "Param": 4, "RewardModifyFirstCardCount":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "1" },
+		{ "ID": 2, "Name": "物尽其用", "Desc": "第一次洗牌前获得胜利。", "ConditionType": 2, "Compare": 6, "Param": 1, "RewardModifyFirstCardCount":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "2" },
+		{ "ID": 3, "Name": "毫发无伤", "Desc": "不使用甘露的情况下获得胜利。", "ConditionType": 3, "Compare": 6, "Param": 0, "RewardModifyFirstCardCount":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "3" },
+		{ "ID": 4, "Name": "速战速决", "Desc": "不超过五轮的时间内获得胜利。", "ConditionType": 1, "Compare": 6, "Param": 5, "RewardModifyMaxHp":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "1" },
+		{ "ID": 5, "Name": "物尽其用", "Desc": "第一次洗牌前获得胜利。", "ConditionType": 2, "Compare": 6, "Param": 1, "RewardModifyMaxHp":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "2" },
+		{ "ID": 6, "Name": "毫发无伤", "Desc": "不使用甘露的情况下获得胜利。", "ConditionType": 3, "Compare": 6, "Param": 0, "RewardModifyMaxHp":[ { "Value": 2 }, { "Difficulty": 1, "Value": 4 } ], "RewardItems":[ { "ItemId": 710082, "MinNum": 1, "MaxNum": 1 } ], "Resource": "3" }
+	], 
+	"HuLaoGuanEffectConf":[
+		{ "SkillID": 8410, "Sound": "JiaXu_01" },
+		{ "SkillID": 8411, "Sound": "LiuXie_01" },
+		{ "SkillID": 8412, "Sound": "XunYu_01" },
+		{ "SkillID": 8413, "Sound": "ZhangXiu_01" },
+		{ "SkillID": 8414, "Sound": "SunJian_01" },
+		{ "SkillID": 8415, "Sound": "YuanShu_01" },
+		{ "SkillID": 8416, "Sound": "YuanShao_01" },
+		{ "SkillID": 8417, "Sound": "XiaHouDun_01" },
+		{ "SkillID": 8418, "Sound": "CaoCao_01" },
+		{ "SkillID": 8419, "Sound": "GuanYu_01" },
+		{ "SkillID": 8420, "Sound": "PanFeng_01" },
+		{ "SkillID": 8421, "Sound": "GongSunZan_01" },
+		{ "SkillID": 8422, "Sound": "LiuBei_01" },
+		{ "SkillID": 8423, "Sound": "GuanYu_02" },
+		{ "SkillID": 8424, "EffectID": 1, "Sound": "ZhangFei_01" },
+		{ "SkillID": 8424, "EffectID": 2, "Sound": "ZhangFei_02" },
+		{ "SkillID": 8424, "EffectID": 3, "Sound": "ZhangFei_03" },
+		{ "SkillID": 8425, "Sound": "ZhangLiao_01" },
+		{ "SkillID": 8426, "Sound": "QunZhaoYun_01" },
+		{ "SkillID": 8427, "Sound": "XuChu_01" },
+		{ "SkillID": 8428, "Sound": "DianWei_01" }
+	], 
+	"HuLaoGuanDifficultyConf":[
+		{ "Difficulty": 1, "Name": "困难模式", "Desc": "困难模式吕布会变得更强，获胜碎片奖励+5", "RewardPCT": 5 }
+	], 
+	"GameHuLaoGuanConf":[
+		{ "PlayerSeats":[ 0, 2, 4 ], "BossSeats":[ 1, 3, 5, 6, 7 ], "TurnOrder":[ 0, 1, 2, 3, 4, 5, 6, 7 ], "PlayerFirstHandCount": 4, "PlayerCharacterSlotCount": 4, "KillRewardHp": 1, "KillRewardDealCardCount": 2, "NoviceProtection": { "Open": 0, "SpriteRate": 4, "Level": 100, "FirstCardAdd": 1, "FreeReviveTimes": 1 }, "EffectBossId": 8317, "EffectSkillId": 8435, "EffectRes": "SF_lvbu_shenweizailin" }
+	], 
+	"GameZhongYeQuestConf":[
+		{ "ID": 1, "Name": "青龙", "Desc": "青龙专属", "CardSuit":[ 1 ], "CardType":[ 2 ], "BoosId": 6300 },
+		{ "ID": 2, "Name": "青龙", "Desc": "青龙专属", "CardSuit":[ 2 ], "CardType":[ 2 ], "BoosId": 6300 },
+		{ "ID": 3, "Name": "青龙", "Desc": "青龙专属", "CardSuit":[ 3 ], "CardType":[ 2 ], "BoosId": 6300 },
+		{ "ID": 4, "Name": "青龙", "Desc": "青龙专属", "CardSuit":[ 4 ], "CardType":[ 2 ], "BoosId": 6300 },
+		{ "ID": 5, "Name": "朱雀", "Desc": "朱雀专属", "CardSuit":[ 1 ], "BoosId": 6303 },
+		{ "ID": 6, "Name": "朱雀", "Desc": "朱雀专属", "CardSuit":[ 2 ], "BoosId": 6303 },
+		{ "ID": 7, "Name": "朱雀", "Desc": "朱雀专属", "CardSuit":[ 3 ], "BoosId": 6303 },
+		{ "ID": 8, "Name": "朱雀", "Desc": "朱雀专属", "CardSuit":[ 4 ], "BoosId": 6303 },
+		{ "ID": 9, "Name": "白虎", "Desc": "白虎专属", "CardSuit":[ 1 ], "CardType":[ 1 ], "BoosId": 6306 },
+		{ "ID": 10, "Name": "白虎", "Desc": "白虎专属", "CardSuit":[ 2 ], "CardType":[ 1 ], "BoosId": 6306 },
+		{ "ID": 11, "Name": "白虎", "Desc": "白虎专属", "CardSuit":[ 3 ], "CardType":[ 1 ], "BoosId": 6306 },
+		{ "ID": 12, "Name": "白虎", "Desc": "白虎专属", "CardSuit":[ 4 ], "CardType":[ 1 ], "BoosId": 6306 },
+		{ "ID": 13, "Name": "玄武", "Desc": "玄武专属", "CardSuit":[ 1 ], "CardType":[ 3 ], "BoosId": 6309 },
+		{ "ID": 14, "Name": "玄武", "Desc": "玄武专属", "CardSuit":[ 2 ], "CardType":[ 3 ], "BoosId": 6309 },
+		{ "ID": 15, "Name": "玄武", "Desc": "玄武专属", "CardSuit":[ 3 ], "CardType":[ 3 ], "BoosId": 6309 },
+		{ "ID": 16, "Name": "玄武", "Desc": "玄武专属", "CardSuit":[ 4 ], "CardType":[ 3 ], "BoosId": 6309 },
+		{ "ID": 17, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 1 ] },
+		{ "ID": 18, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 2 ] },
+		{ "ID": 19, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 3 ] },
+		{ "ID": 20, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 4 ] },
+		{ "ID": 21, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 5 ] },
+		{ "ID": 22, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 6 ] },
+		{ "ID": 23, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 7 ] },
+		{ "ID": 24, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 8 ] },
+		{ "ID": 25, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 9 ] },
+		{ "ID": 26, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 10 ] },
+		{ "ID": 27, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 11 ] },
+		{ "ID": 28, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 12 ] },
+		{ "ID": 29, "Name": "通用基础", "Desc": "四种BOSS均可", "CardNum":[ 13 ] },
+		{ "ID": 30, "Name": "通用基础", "Desc": "四种BOSS均可", "CardType":[ 1 ] },
+		{ "ID": 31, "Name": "通用基础", "Desc": "四种BOSS均可", "CardType":[ 2 ] },
+		{ "ID": 32, "Name": "通用基础", "Desc": "四种BOSS均可", "CardType":[ 3 ] }
+	], 
+	"GameXinChunNianShouConf":[
+		{ "PlayerSeats":[ 0, 1, 2 ], "BossSeats":[ 4, 5 ], "BossAssistSeats":[ 3, 6 ], "TurnOrder":[ 0, 1, 2, 3, 4, 5, 6 ], "PlayerDealutFirstHandCount": 4, "DefaultGeneralSlotCount": 4, "SelectCharacterTime": 30, "TigerCardCount": 90, "SeriesOutTigerCardCount": 3, "SeriesOutTigerCardScore":[ { "SeriesCount": 1, "SeriesScore": 1 }, { "SeriesCount": 2, "SeriesScore": 2 }, { "SeriesCount": 3, "SeriesScore": 3 } ], "UseBossAssist":[ { "Difficulty": 2, "IsUseBossAssist": 1 }, { "Difficulty": 3, "IsUseBossAssist": 1 }, { "Difficulty": 10, "IsUseBossAssist": 1 } ], "TigerEggShellCharacterIds":[ 321, 923, 304, 926, 18, 77, 3, 62, 19, 78, 400, 99 ], "BossCharacterIds":[ { "CharacterId": 6116, "SeatId": 4 }, { "CharacterId": 6117, "SeatId": 4 }, { "CharacterId": 6118, "SeatId": 4 }, { "CharacterId": 6119, "SeatId": 4 }, { "CharacterId": 6126, "SeatId": 5 }, { "CharacterId": 6127, "SeatId": 5 }, { "CharacterId": 6128, "SeatId": 5 }, { "CharacterId": 6129, "SeatId": 5 } ], "BossAssistCharacterIds":[ { "CharacterId": 6114, "SeatId": 3 }, { "CharacterId": 6115, "SeatId": 6 } ], "KillRewardHp": 1, "KillRewardDealCardCount": 2, "TigerEggCharacterEffectMusics":[ { "CharacterId": 321, "EffectMusic": "caozhen" }, { "CharacterId": 923, "EffectMusic": "caozhen" }, { "CharacterId": 304, "EffectMusic": "handang" }, { "CharacterId": 926, "EffectMusic": "handang" }, { "CharacterId": 18, "EffectMusic": "xiahoudun" }, { "CharacterId": 77, "EffectMusic": "xiahoudun" }, { "CharacterId": 3, "EffectMusic": "zhangfei" }, { "CharacterId": 62, "EffectMusic": "zhangfei" }, { "CharacterId": 19, "EffectMusic": "zhangliao" }, { "CharacterId": 78, "EffectMusic": "zhangliao" }, { "CharacterId": 400, "EffectMusic": "zhangxingcai" }, { "CharacterId": 99, "EffectMusic": "zhugezhan" } ] }
+	], 
+	"GameHeSuiConf":[
+		{ "PlayerSeats":[ 1, 2, 3 ], "PlayerCharacterList":[ 6132, 6133, 6134 ], "BossCharacter": 6131, "BossInitHandCard":[ 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518 ], "BossSeat": 0, "TurnOrder":[ 0, 1, 2, 3 ], "PlayerDealutFirstHandCount": 8, "ScorePerFuDai": 3, "FuDaiChangeToLiHeProb": 10, "MaxLiHeCount": 1, "MaxRatioForLastFu": 3, "CardScoreList":[ { "cardNum": 1, "score": 1 }, { "cardNum": 2, "score": 1 }, { "cardNum": 3, "score": 1 }, { "cardNum": 4, "score": 1 }, { "cardNum": 5, "score": 1 }, { "cardNum": 6, "score": 2 }, { "cardNum": 7, "score": 2 }, { "cardNum": 8, "score": 2 }, { "cardNum": 9, "score": 2 }, { "cardNum": 10, "score": 2 }, { "cardNum": 11, "score": 3 }, { "cardNum": 12, "score": 3 }, { "cardNum": 13, "score": 3 } ], "FuDaiItemID": 201415, "LiHeItemID": 201416 }
+	], 
+	"GameXinChunNianShouRewardConf":[
+		{ "Difficulty": 1, "WinRewardItem":[ { "ItemID": 710158, "Count": 4 }, { "ItemID": 710159, "Count": 10 }, { "ItemID": 710160, "Count": 10 } ], "LostRewardItem":[ { "ItemID": 710158, "Count": 1 } ], "TigerCardScoreRewardItem":[ { "Score": 28, "ItemID": 710158, "Count": 1 }, { "Score": 58, "ItemID": 710158, "Count": 2 }, { "Score": 88, "ItemID": 710158, "Count": 3 } ] },
+		{ "Difficulty": 2, "WinRewardItem":[ { "ItemID": 710158, "Count": 10 }, { "ItemID": 710159, "Count": 10 }, { "ItemID": 710160, "Count": 10 } ], "LostRewardItem":[ { "ItemID": 710158, "Count": 1 } ], "TigerCardScoreRewardItem":[ { "Score": 28, "ItemID": 710158, "Count": 1 }, { "Score": 58, "ItemID": 710158, "Count": 2 }, { "Score": 88, "ItemID": 710158, "Count": 3 } ] },
+		{ "Difficulty": 3, "WinRewardItem":[ { "ItemID": 710158, "Count": 15 }, { "ItemID": 710159, "Count": 10 }, { "ItemID": 710160, "Count": 10 } ], "LostRewardItem":[ { "ItemID": 710158, "Count": 1 } ], "TigerCardScoreRewardItem":[ { "Score": 28, "ItemID": 710158, "Count": 1 }, { "Score": 58, "ItemID": 710158, "Count": 2 }, { "Score": 88, "ItemID": 710158, "Count": 3 } ] }
+	], 
+	"GameSanYingZhanLvBuConf":[
+		{ "LvBuSeatId": 1, "LianJunSeats":[ 2, 3, 4 ], "MaxLianJunDeadTimes": 5, "LvBuCharacterId": 8499, "LvBuCardTalk": { "Content": "画戟渴虏血，赤兔闻战鸣！", "Sound": "lvbu_begin" }, "LianJunCardTalk": { "Content": "吕布何在？速与我等决一死战！", "Sound": "lianjun_begin" }, "LvBuVictoryTalk": { "Content": "哼！天下英雄万千，可有吾一合之将？", "Sound": "lvbu_win" }, "LvBuFailTalk": { "Content": "退、退、退！暂且罢兵，来日再战。", "Sound": "lvbu_lose1" }, "LvBuDeadTalk": { "Content": "是吕布败了，关我奉先什么事？", "Sound": "lvbu_lose2" }, "LvBuRuleContent": "三轮内累计击溃联军5次，或一回合内击溃所有联军则牌局胜利；第三轮回合结束后撤离战场则牌局失败。", "LianJunRuleContent": "坚持三轮至吕布撤退，或击溃吕布则牌局胜利；联军累计被击溃5次或一回合全部被击溃则牌局失败。" }
+	], 
+	"GameHuLaoGuanPlayerGeneralConf":[
+		{ "GeneralID": 49, "Name": "贾诩", "ModeGateCount": 1, "EasterEggSpellId": 8410 },
+		{ "GeneralID": 406, "Name": "刘协", "ModeGateCount": 1, "EasterEggSpellId": 8411 },
+		{ "GeneralID": 36, "Name": "荀彧", "ModeGateCount": 1, "EasterEggSpellId": 8412 },
+		{ "GeneralID": 105, "Name": "张绣", "ModeGateCount": 1, "EasterEggSpellId": 8413 },
+		{ "GeneralID": 45, "Name": "孙坚", "ModeGateCount": 1, "EasterEggSpellId": 8414 },
+		{ "GeneralID": 104, "Name": "袁术", "ModeGateCount": 1, "EasterEggSpellId": 8415 },
+		{ "GeneralID": 42, "Name": "袁绍", "ModeGateCount": 1, "EasterEggSpellId": 8416 },
+		{ "GeneralID": 18, "Name": "夏侯惇", "ModeGateCount": 1, "EasterEggSpellId": 8417 },
+		{ "GeneralID": 16, "Name": "曹操", "ModeGateCount": 1, "EasterEggSpellId": 8418 },
+		{ "GeneralID": 2, "Name": "关羽", "ModeGateCount": 1, "EasterEggSpellId": 8419 },
+		{ "GeneralID": 950, "Name": "潘凤", "ModeGateCount": 1, "EasterEggSpellId": 8420 },
+		{ "GeneralID": 447, "Name": "公孙瓒", "ModeGateCount": 1, "EasterEggSpellId": 8421 },
+		{ "GeneralID": 1, "Name": "刘备", "ModeGateCount": 2, "EasterEggSpellId": 8422 },
+		{ "GeneralID": 2, "Name": "关羽", "ModeGateCount": 2, "EasterEggSpellId": 8423 },
+		{ "GeneralID": 3, "Name": "张飞", "ModeGateCount": 2, "EasterEggSpellId": 8424 },
+		{ "GeneralID": 19, "Name": "张辽", "ModeGateCount": 2, "EasterEggSpellId": 8425 },
+		{ "GeneralID": 524, "Name": "群赵云", "ModeGateCount": 2, "EasterEggSpellId": 8426 },
+		{ "GeneralID": 20, "Name": "许褚", "ModeGateCount": 2, "EasterEggSpellId": 8427 },
+		{ "GeneralID": 35, "Name": "典韦", "ModeGateCount": 2, "EasterEggSpellId": 8428 }
+	]}
