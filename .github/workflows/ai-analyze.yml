@@ -53,7 +53,7 @@ jobs:
             -H "Authorization: Bearer $AI_API_KEY" \
             -H "Content-Type: application/json" \
             -d '{
-              "model": "grok-2-1212",
+              "model": "grok-4.20-beta",
               "messages": [
                 {
                   "role": "system",
