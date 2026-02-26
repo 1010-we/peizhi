@@ -1,0 +1,54 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"SpriteShanClientGlobalConf":[
+		{ "PlayerBlood": 8, "MoveInterval": 100, "PCScale": 120, "MaxLevel": 2, "GameSpriteID": 718, "ItemRefreshTime":[ 3000, 4000, 5000, 6000, 7000 ], "BossDialogCD": 8000, "BossDialogDuration": 3000, "LevelRefresh": 0, "RecordStatusStr":[ "未通关", "通过第一关", "通过第二关" ], "BOSSMoveInterval": 5000, "BOSSBornPos": { "CPX": 260, "CPY": 610 }, "OpenRankPrizeText": 1, "RankPrizeText": "本排行榜活动截止时，前100名可获得闪闪节专属定制【闪】卡" }
+	], 
+	"SpriteShanMapConf":[
+		{ "ConfID": 1, "MapBg": "1", "MapSize": { "CRWidth": 4, "CRHeight": 4 }, "StartPos": { "X": 409, "Y": 110 }, "StonePos": { "X": 310, "Y": 4 }, "GridSize": { "CRWidth": 121, "CRHeight": 120 }, "GridScale": { "CRWidth": 85, "CRHeight": 93 }, "BornPos":[ { "X": 0, "Y": 0 }, { "X": 1, "Y": 1 } ], "GridData":[ { "X": 0, "Y": 0, "R": 1 }, { "X": 1, "Y": 0, "R": 1 }, { "X": 2, "Y": 0, "R": 1 }, { "X": 3, "Y": 0, "R": 1 }, { "X": 0, "Y": 1, "R": 1 }, { "X": 1, "Y": 1, "R": 1 }, { "X": 2, "Y": 1, "R": 1 }, { "X": 3, "Y": 1, "R": 1 }, { "X": 0, "Y": 2, "R": 1 }, { "X": 1, "Y": 2, "R": 1 }, { "X": 2, "Y": 2, "R": 1 }, { "X": 3, "Y": 2, "R": 1 }, { "X": 0, "Y": 3, "R": 1 }, { "X": 1, "Y": 3, "R": 1 }, { "X": 2, "Y": 3, "R": 1 }, { "X": 3, "Y": 3, "R": 1 } ] },
+		{ "ConfID": 2, "MapBg": "2", "MapSize": { "CRWidth": 3, "CRHeight": 3 }, "StartPos": { "X": 437, "Y": 135 }, "StonePos": { "X": 333, "Y": 26 }, "GridSize": { "CRWidth": 139, "CRHeight": 143 }, "GridScale": { "CRWidth": 87, "CRHeight": 92 }, "BornPos":[ { "X": 0, "Y": 0 }, { "X": 1, "Y": 1 } ], "GridData":[ { "X": 0, "Y": 0, "R": 2 }, { "X": 1, "Y": 0, "R": 2 }, { "X": 2, "Y": 0, "R": 2 }, { "X": 0, "Y": 1, "R": 2 }, { "X": 1, "Y": 1, "R": 2 }, { "X": 2, "Y": 1, "R": 2 }, { "X": 0, "Y": 2, "R": 2 }, { "X": 1, "Y": 2, "R": 2 }, { "X": 2, "Y": 2, "R": 2 }, {  } ] }
+	], 
+	"SpriteShanBossConf":[
+		{ "BossID": 101, "BossName": "张琪瑛", "SpriteID": 715, "BossType": 1, "Weight": 20, "LifeTime": 60, "CD":[ { "Life": 60, "TimeMin": 2000, "TimeMax": 3000 }, { "Life": 30, "TimeMin": 1500, "TimeMax": 2500 } ], "Skills":[ { "ID": 1011, "Weight": 60 }, { "ID": 1012, "Weight": 40 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] },
+		{ "BossID": 102, "BossName": "神周瑜", "SpriteID": 701, "BossType": 1, "Weight": 20, "LifeTime": 60, "CD":[ { "Life": 60, "TimeMin": 2000, "TimeMax": 3000 }, { "Life": 30, "TimeMin": 1500, "TimeMax": 2500 } ], "Skills":[ { "ID": 1021, "Weight": 60 }, { "ID": 1022, "Weight": 40 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] },
+		{ "BossID": 103, "BossName": "曹纯", "SpriteID": 716, "BossType": 1, "Weight": 20, "LifeTime": 60, "CD":[ { "Life": 60, "TimeMin": 2000, "TimeMax": 3000 }, { "Life": 30, "TimeMin": 1500, "TimeMax": 2500 } ], "Skills":[ { "ID": 1031, "Weight": 60 }, { "ID": 1032, "Weight": 40 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] },
+		{ "BossID": 104, "BossName": "花鬘", "SpriteID": 711, "BossType": 1, "Weight": 20, "LifeTime": 60, "CD":[ { "Life": 60, "TimeMin": 2000, "TimeMax": 3000 }, { "Life": 30, "TimeMin": 1500, "TimeMax": 2500 } ], "Skills":[ { "ID": 1041, "Weight": 60 }, { "ID": 1042, "Weight": 40 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] },
+		{ "BossID": 105, "BossName": "孙策", "SpriteID": 515, "BossType": 1, "Weight": 5, "LifeTime": 60, "CD":[ { "Life": 60, "TimeMin": 1000, "TimeMax": 2000 } ], "Skills":[ { "ID": 1051, "Weight": 100 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] },
+		{ "BossID": 201, "BossName": "神赵云", "SpriteID": 703, "BossType": 2, "Weight": 100, "LifeTime": 300, "CD":[ { "Life": 300, "TimeMin": 1600, "TimeMax": 1800 }, { "Life": 240, "TimeMin": 1500, "TimeMax": 1700 }, { "Life": 150, "TimeMin": 1200, "TimeMax": 1500 }, { "Life": 50, "TimeMin": 800, "TimeMax": 1000 } ], "Skills":[ { "ID": 2011, "Weight": 10 }, { "ID": 2012, "Weight": 20 }, { "ID": 2013, "Weight": 20 }, { "ID": 2014, "Weight": 10 } ], "MapID": 1, "Rotation": 30, "Scale": 100, "Dialog":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] }
+	], 
+	"SpriteShanSkillConf":[
+		{ "ID": 1011, "SkillName": "张琪瑛技能1", "WarnTime": 800, "PreTime": 100, "Range":[ { "X": 2, "Y": 2 } ], "Count": 1, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_guangjian", "CRScale": 100 }, "ExeSoundRes": 1011, "Action": 4, "Damage": 2 },
+		{ "ID": 1012, "SkillName": "张琪瑛技能2", "WarnTime": 400, "PreTime": 100, "Range":[ { "X": 1, "Y": 4 } ], "Count": 1, "Speed": 600, "PreVaildTime": 1, "PCResource": { "CRName": "sanguoshan_longjuanfeng", "CRScale": 100 }, "ExeSoundRes": 1012, "Action": 4, "Damage": 2 },
+		{ "ID": 1021, "SkillName": "神周瑜技能1", "WarnTime": 800, "PreTime": 100, "Range":[ { "X": 1, "Y": 1 } ], "Count": 4, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_huozhu" }, "ExeSoundRes": 1021, "Action": 4, "Damage": 1 },
+		{ "ID": 1022, "SkillName": "神周瑜技能2", "WarnTime": 400, "PreTime": 100, "Range":[ { "X": 4, "Y": 1 } ], "Count": 1, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_xiaohuoqiu" }, "ExeSoundRes": 1022, "Action": 4, "Damage": 2 },
+		{ "ID": 1031, "SkillName": "曹纯技能1", "WarnTime": 400, "PreTime": 100, "Range":[ { "X": 1, "Y": 4 } ], "Count": 1, "Speed": 2000, "PreVaildTime": 1, "PCResource": { "CRName": "sanguoshan_jian" }, "ExeSoundRes": 1031, "Action": 4, "Damage": 1 },
+		{ "ID": 1032, "SkillName": "曹纯技能2", "WarnTime": 800, "PreTime": 100, "Range":[ { "X": 2, "Y": 2 } ], "Count": 2, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_shizi" }, "ExeSoundRes": 1032, "Action": 4, "Damage": 2 },
+		{ "ID": 1041, "SkillName": "花鬘技能1", "WarnTime": 400, "PreTime": 100, "Range":[ { "X": 1, "Y": 1 } ], "Count": 4, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_xiaodao" }, "ExeSoundRes": 1041, "Action": 4, "Damage": 1 },
+		{ "ID": 1042, "SkillName": "花鬘技能2", "WarnTime": 800, "PreTime": 100, "Range":[ { "X": 1, "Y": 4 }, { "X": 4, "Y": 1 } ], "Count": 1, "Speed": 1000, "PreVaildTime": 1, "PCResource": { "CRName": "sanguoshan_daxiang" }, "ExeSoundRes": 1042, "Action": 4, "Damage": 2 },
+		{ "ID": 1051, "SkillName": "孙策技能1", "WarnTime": 800, "PreTime": 200, "Range":[ { "X": 1, "Y": 1 } ], "Count": 1, "PreVaildTime": 400, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_guangquan", "CRScale": 50 }, "ExeSoundRes": 1051, "Action": 4, "Damage": 1 },
+		{ "ID": 2011, "SkillName": "神赵云技能1", "WarnTime": 500, "PreTime": 100, "Range":[ { "X": 2, "Y": 2 } ], "Count": 1, "PreVaildTime": 400, "VaildTime": 800, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_jingong" }, "ExeSoundRes": 2011, "Action": 4, "Damage": 1 },
+		{ "ID": 2012, "SkillName": "神赵云技能2", "WarnTime": 700, "PreTime": 200, "Range":[ { "X": 2, "Y": 2 } ], "Count": 2, "PreVaildTime": 400, "VaildTime": 700, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_huogong" }, "ExeSoundRes": 2012, "Action": 4, "Damage": 2 },
+		{ "ID": 2013, "SkillName": "神赵云技能3", "WarnTime": 800, "PreTime": 300, "Range":[ { "X": 1, "Y": 2 } ], "Count": 3, "PreVaildTime": 400, "VaildTime": 1000, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_shandian" }, "ExeSoundRes": 2013, "Action": 4, "Damage": 3 },
+		{ "ID": 2014, "SkillName": "神赵云技能4", "WarnTime": 600, "PreTime": 400, "Range":[ { "X": 2, "Y": 4 } ], "Count": 1, "PreVaildTime": 400, "VaildTime": 900, "Repeat": 1, "PCResource": { "CRName": "sanguoshan_long" }, "ExeSoundRes": 2014, "Action": 4, "Damage": 2 }
+	], 
+	"SpriteShanItemConf":[
+		{ "ConfID": 1, "ItemType": 1, "Weight": 200, "Duration": 4000, "EffectValue": 1 },
+		{ "ConfID": 2, "ItemType": 2, "Weight": 100, "Duration": 4000, "EffectValue": 1 },
+		{ "ConfID": 3, "ItemType": 3, "Weight": 1000, "Duration": 4000, "EffectValue": 15 }
+	], 
+	"SpriteShanDialogConf":[
+		{ "ConfID": 1, "Weight": 10, "Msg": "咱们三人太强了" },
+		{ "ConfID": 2, "Weight": 10, "Msg": "像我这么强的忠臣你打着灯笼都难找到" },
+		{ "ConfID": 3, "Weight": 10, "Msg": "只要我活着就能让对方恐惧" },
+		{ "ConfID": 4, "Weight": 10, "Msg": "杀我" },
+		{ "ConfID": 5, "Weight": 10, "Msg": "这把稳了" },
+		{ "ConfID": 6, "Weight": 10, "Msg": "闹够了没有" },
+		{ "ConfID": 7, "Weight": 10, "Msg": "我无敌了" },
+		{ "ConfID": 8, "Weight": 10, "Msg": "你有几个桃啊，敢这么和我说话" },
+		{ "ConfID": 9, "Weight": 10, "Msg": "这仇我记下了" },
+		{ "ConfID": 10, "Weight": 10, "Msg": "我觉得可以试试困难" },
+		{ "ConfID": 11, "Weight": 10, "Msg": "恭喜玩家不要诸葛果，转生获得S级将灵诸葛果" },
+		{ "ConfID": 12, "Weight": 10, "Msg": "闪闪节是三月三日" }
+	]}
