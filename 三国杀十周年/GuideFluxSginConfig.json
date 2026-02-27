@@ -1,0 +1,9 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"GuideFluxSgin":[
+		{ "ConfigID": 1, "StartTimeStr": "2023-09-01 10:00:00", "EndTimeStr": "2023-09-10 23:59:59", "HideChannel":[ 220001, 120002 ], "DownloadBtnRes": "activity_btn59_0", "SginBtnRes": "activity_btn59_1", "DownloadTips": "下载获得奖励", "DownloadBgRes": "guideFluxBg", "DownloadCodeRes": "guideFluxCode", "SginAfterBgRes": "guideFluxSginAfterBg", "SginBgRes": "guideFluxSginBg", "TaskIDList":[ 2423, 2424, 2425, 2426, 2427, 2428, 2429 ] },
+		{ "ConfigID": 2, "StartTimeStr": "2023-09-27 10:00:00", "EndTimeStr": "2023-10-10 23:59:59", "DownloadBtnRes": "activity_btn59_0", "SginBtnRes": "activity_btn59_1", "DownloadTips": "下载获得奖励", "DownloadBgRes": "guideFluxBg", "DownloadCodeRes": "guideFluxCode", "SginAfterBgRes": "guideFluxSginAfterBg", "SginBgRes": "guideFluxSginBg", "TaskIDList":[ 2430, 2431, 2432, 2433, 2434, 2435, 2436 ] }
+	]}

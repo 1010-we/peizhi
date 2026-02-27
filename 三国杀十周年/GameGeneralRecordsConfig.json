@@ -1,0 +1,20 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"GeneralRecordsConf":[
+		{ "confID": 1, "GroupName": "情衷千古", "GeneralIDs":[ 24, 25 ], "SysteamID": 1, "bgResouce": "30001", "keys": "情", "LightID": 1, "NeedOpenAnimate": 0 },
+		{ "confID": 2, "GroupName": "桃园结义", "TaskIDs":[ 20001, 20002 ], "GeneralIDs":[ 1, 2, 3 ], "SysteamID": 2, "bgResouce": "30002", "keys": "义", "LightID": 2, "Tips": "恭喜您开启了活动功能", "NeedOpenAnimate": 1 },
+		{ "confID": 3, "GroupName": "疑神疑鬼", "TaskIDs":[ 20003 ], "GeneralIDs":[ 16, 23 ], "SysteamID": 3, "bgResouce": "30003", "keys": "疑", "LightID": 3, "NeedOpenAnimate": 0 },
+		{ "confID": 4, "GroupName": "马上乾坤", "TaskIDs":[ 20004, 20005 ], "GeneralIDs":[ 5, 6 ], "SysteamID": 4, "bgResouce": "30004", "keys": "乾", "LightID": 4, "NeedOpenAnimate": 0 },
+		{ "confID": 5, "GroupName": "忠奸有别", "TaskIDs":[ 20006, 20007 ], "GeneralIDs":[ 16, 18, 17 ], "SysteamID": 5, "bgResouce": "30005", "keys": "忠", "LightID": 5, "NeedOpenAnimate": 0, "DropItemPack":[ { "ItemID": 710014, "Num": 1 } ] },
+		{ "confID": 6, "GroupName": "遗计定美", "TaskIDs":[ 20008, 20009, 20010 ], "GeneralIDs":[ 21, 20, 22 ], "SysteamID": 6, "bgResouce": "30006", "keys": "遗", "LightID": 6, "Tips": "恭喜您开启了好友功能", "NeedOpenAnimate": 1 },
+		{ "confID": 7, "GroupName": "虎威护主", "TaskIDs":[ 20011, 20012, 20013 ], "GeneralIDs":[ 8, 9, 19 ], "SysteamID": 7, "bgResouce": "30007", "keys": "威", "LightID": 7, "Tips": "恭喜您开启了师徒功能", "NeedOpenAnimate": 1 },
+		{ "confID": 8, "GroupName": "温酒之交", "TaskIDs":[ 20014 ], "GeneralIDs":[ 2, 26 ], "SysteamID": 8, "bgResouce": "30008", "keys": "温", "LightID": 8, "Tips": "恭喜您开启了皮肤功能", "NeedOpenAnimate": 1 },
+		{ "confID": 9, "GroupName": "苦肉良计", "TaskIDs":[ 20015, 20016 ], "GeneralIDs":[ 11, 12 ], "SysteamID": 9, "bgResouce": "30009", "keys": "苦", "LightID": 9, "Tips": "恭喜您开启了公会功能", "NeedOpenAnimate": 1 },
+		{ "confID": 10, "GroupName": "江东二娇", "TaskIDs":[ 20017, 20018 ], "GeneralIDs":[ 13, 31 ], "SysteamID": 10, "bgResouce": "30010", "keys": "娇", "LightID": 10, "Tips": "恭喜您开启了三国秀功能", "NeedOpenAnimate": 1 },
+		{ "confID": 11, "GroupName": "棋差一招", "TaskIDs":[ 20019 ], "GeneralIDs":[ 8, 15, 1 ], "SysteamID": 11, "bgResouce": "30011", "keys": "棋", "LightID": 11, "NeedOpenAnimate": 0 },
+		{ "confID": 12, "GroupName": "如宾相敬", "TaskIDs":[ 20020, 20021 ], "GeneralIDs":[ 4, 7 ], "SysteamID": 12, "bgResouce": "30012", "keys": "敬", "LightID": 12, "NeedOpenAnimate": 0 },
+		{ "confID": 13, "GroupName": "白衣渡江", "TaskIDs":[ 20022, 20023 ], "GeneralIDs":[ 14, 10, 2 ], "SysteamID": 13, "bgResouce": "30013", "keys": "白", "LightID": 13, "NeedOpenAnimate": 0 }
+	]}
