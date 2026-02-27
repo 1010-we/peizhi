@@ -608,6 +608,6 @@
 		{ "ID": 2174, "Name": "击退来敌", "MResource": "autoChessbeijing_m", "SResource": "autoChessbeijing_s", "USResource": "autoChessbeijing_s.jpg" },
 		{ "ID": 2175, "Name": "护送物资", "MResource": "qunxiongbeijing_m", "SResource": "qunxiongbeijing_s", "USResource": "qunxiongbeijing_s.jpg" },
 		{ "ID": 2176, "Name": "守护平民", "MResource": "jgzw1_m", "SResource": "jgzw1_s", "USResource": "jiguan_bg.jpg" },
-		{ "ID": 2177, "Name": "喵喵杯", "SResource": "miaomiaobei", "USResource": "miaomiaobei.png", "ModeIDs":[ 601 ], "IsHide": 1 },
+		{ "ID": 2177, "Name": "喵喵杯", "SResource": "miaomiaobei", "USResource": "miaomiaobei.png", "ModeIDs":[ 601 ], "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-16 01:59:59" },
 		{ "ID": 2178, "Name": "盒你过新年", "MResource": "4399_m", "SResource": "4399bg", "ItemID": 799225, "Sort": 2 }
 	]}

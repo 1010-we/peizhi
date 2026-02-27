@@ -70,9 +70,9 @@
 	], 
 	"ClientRankCardConf":[
 		{ "ModeId": 8, "ModeRank": 0, "CardExtend": 1 },
-		{ "ModeId": 8, "ModeRank": 7, "CardExtend": 3 },
+		{ "ModeId": 8, "ModeRank": 7, "Score": 1140, "CardExtend": 3 },
 		{ "ModeId": 4, "ModeRank": 0, "CardExtend": 1 },
-		{ "ModeId": 4, "ModeRank": 7, "CardExtend": 3 },
+		{ "ModeId": 4, "ModeRank": 7, "Score": 1140, "CardExtend": 3 },
 		{ "ModeId": 6, "ModeRank": 0, "CardExtend": 5 },
 		{ "ModeId": 10, "ModeRank": 0, "CardExtend": 4 },
 		{ "ModeId": 221, "ModeRank": 0, "CardExtend": 1 },

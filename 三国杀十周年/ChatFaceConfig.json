@@ -279,7 +279,21 @@
 		{ "FaceId": 296, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "12猫", "Repeat": 1, "Resource": "12mao", "Frame": 1, "Interval": 1500 },
 		{ "FaceId": 297, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "13猫", "Repeat": 1, "Resource": "13mao", "Frame": 1, "Interval": 1500 },
 		{ "FaceId": 298, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "14猫", "Repeat": 1, "Resource": "14mao", "Frame": 1, "Interval": 1500 },
-		{ "FaceId": 299, "FaceGroupId": 14, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "抽陀螺", "Repeat": 1, "Resource": "choutuoluo", "Frame": 60, "Interval": 30, "HasItem": 401202424 }
+		{ "FaceId": 299, "FaceGroupId": 14, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "抽陀螺", "Repeat": 1, "Resource": "choutuoluo", "Frame": 60, "Interval": 30, "HasItem": 401202424 },
+		{ "FaceId": 300, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "15猫", "Repeat": 1, "Resource": "15mao", "Frame": 60, "Interval": 30 },
+		{ "FaceId": 301, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "16猫", "Repeat": 1, "Resource": "16mao", "Frame": 60, "Interval": 30 },
+		{ "FaceId": 302, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "17猫", "Repeat": 1, "Resource": "17mao", "Frame": 60, "Interval": 30 },
+		{ "FaceId": 303, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "18猫", "Repeat": 1, "Resource": "18mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 304, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "19猫", "Repeat": 1, "Resource": "19mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 305, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "20猫", "Repeat": 1, "Resource": "20mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 306, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "21猫", "Repeat": 1, "Resource": "21mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 307, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "22猫", "Repeat": 1, "Resource": "22mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 308, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "23猫", "Repeat": 1, "Resource": "23mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 309, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "24猫", "Repeat": 1, "Resource": "24mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 310, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "25猫", "Repeat": 1, "Resource": "25mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 311, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "26猫", "Repeat": 1, "Resource": "26mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 312, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "27猫", "Repeat": 1, "Resource": "27mao", "Frame": 1, "Interval": 1500 },
+		{ "FaceId": 313, "FaceGroupId": 15, "FaceWidth": 96, "FaceHeight": 96, "FaceName": "28猫", "Repeat": 1, "Resource": "28mao", "Frame": 1, "Interval": 1500 }
 	], 
 	"ChatPhraseConf":[
 		{ "PhraseId": 1, "ChatType": 1, "Msg": "能不能快一点儿呀，兵贵神速啊", "Sound": "1" },

@@ -48344,7 +48344,7 @@
       "picId": "40001639",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2025-03-03 00:00:00",
       "CriteriaEntry": [
         {
           "Id": "1206",
@@ -48602,7 +48602,7 @@
       "picId": "40002317",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2026-03-03 00:00:00",
       "CriteriaEntry": {
         "Id": "1212",
         "count": "5",
@@ -48690,7 +48690,7 @@
       "picId": "4000218",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2025-04-04 00:00:00",
       "CriteriaEntry": {
         "Id": "1214",
         "count": "3",
@@ -48733,7 +48733,7 @@
       "picId": "40001792",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2026-03-01 00:00:00",
       "CriteriaEntry": {
         "Id": "1215",
         "count": "1",
@@ -49044,7 +49044,7 @@
       "picId": "40001703",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2026-03-03 00:00:00",
       "CriteriaEntry": {
         "Id": "1222",
         "count": "1",
@@ -58559,8 +58559,8 @@
       "category": "1",
       "level": "3",
       "point": "50",
-      "name": "马踏福来",
-      "title": "马踏福来",
+      "name": "福马贺岁",
+      "title": "福马贺岁",
       "unlockAchievement": "0",
       "unlockLevel": "0",
       "characterId": "0",
@@ -58572,25 +58572,6 @@
       "requirementCount": "0",
       "sortIndex": "51301",
       "startActiveTime": "2026-02-15 00:00:00"
-    },
-    {
-      "Id": "51302",
-      "category": "1",
-      "level": "3",
-      "point": "50",
-      "name": "元宵喜乐",
-      "title": "元宵喜乐",
-      "unlockAchievement": "0",
-      "unlockLevel": "0",
-      "characterId": "0",
-      "figure": "0",
-      "gameMode": "0",
-      "flags": "6",
-      "desc": "2026年元宵喜乐活动纪念战功",
-      "picId": "51302",
-      "requirementCount": "0",
-      "sortIndex": "51302",
-      "startActiveTime": "2026-03-03 00:00:00"
     },
     {
       "Id": "60001",
