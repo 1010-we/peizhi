@@ -164,6 +164,6 @@
 		{ "ConfID": 600, "ActiveType": 4, "Param":[ 1334 ], "DialogRes":[ "yuemiheng01" ] }
 	], 
 	"SkinFullScreenSpecialEffect":[
-		{ "ConfID": 1, "EffectName": "machao_vs_huangzhong.skel", "MobileEffectName": "machao_vs_huangzhong", "EffectSound":[ "ShenMaChao_Sha1", "ShenMaChao_Sha2", "ShenMaChao_JueDou1", "ShenMaChao_JueDou2" ] },
-		{ "ConfID": 2, "EffectName": "machao_vs_huangzhong.skel", "MobileEffectName": "machao_vs_huangzhong", "EffectSound":[ "ShenHuangZhong_Sha1", "ShenHuangZhong_Sha2", "ShenHuangZhong_JueDou1", "ShenHuangZhong_JueDou2" ] }
+		{ "ConfID": 1, "EffectName": "machao_vs_huangzhong.skel", "MobileEffectName": "machao_vs_huangzhong", "EffectSound":[ { "SkillID": 1, "Sounds": "ShenMaChao_Sha1|ShenMaChao_Sha2" }, { "SkillID": 8, "Sounds": "ShenMaChao_JueDou1|ShenMaChao_JueDou2" } ] },
+		{ "ConfID": 2, "EffectName": "machao_vs_huangzhong.skel", "MobileEffectName": "machao_vs_huangzhong", "EffectSound":[ { "SkillID": 1, "Sounds": "ShenHuangZhong_Sha1|ShenHuangZhong_Sha2" }, { "SkillID": 8, "Sounds": "ShenHuangZhong_JueDou1|ShenHuangZhong_JueDou2" } ] }
 	]}

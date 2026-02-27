@@ -525,5 +525,20 @@
 		{ "GeneralID": 1955, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
 		{ "GeneralID": 2222, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
 		{ "GeneralID": 582, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
-		{ "GeneralID": 1250, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 }
+		{ "GeneralID": 1250, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1037, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1651, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1674, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1683, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 224, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1352, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1783, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 2236, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 2223, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1850, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1712, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1792, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1703, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 1639, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 },
+		{ "GeneralID": 2317, "ModeID":[ 42, 43, 44, 45, 8 ], "Rank": 15, "WinRate": 60 }
 	]}

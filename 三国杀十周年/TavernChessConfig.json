@@ -6259,7 +6259,7 @@
 		{ "GeneralID": 1042, "GeneralName": "嫦娥", "HitPoint": 40, "GeneralSkill": 1051, "DefaultSkin": "change", "IsAvailable": 0, "SelectDialogSoundEffect":[ "change" ], "GeneralOrder": 1, "GenaralFeature":[ 9 ], "Difficulty": 2, "IsBingeSaturdayPrivilege": 1 },
 		{ "GeneralID": 1043, "GeneralName": "成吉思汗", "HitPoint": 40, "GeneralSkill": 1052, "DefaultSkin": "chengjisihan", "IsAvailable": 1, "IsAvailableStartTimeStr": "2026-01-01 08:00:00", "SelectDialogSoundEffect":[ "chengjisihan" ], "ExpansionID": 6, "SearchKey": "chengjisihan成吉思汗", "GeneralOrder": 218, "GenaralFeature":[ 9 ], "Difficulty": 5 },
 		{ "GeneralID": 1044, "GeneralName": "狄青", "HitPoint": 40, "GeneralSkill": 1053, "DefaultSkin": "diqing", "IsAvailable": 1, "IsAvailableStartTimeStr": "2025-11-01 08:00:00", "SelectDialogSoundEffect":[ "diqing" ], "ExpansionID": 6, "SearchKey": "diqing狄青", "GeneralOrder": 219, "GenaralFeature":[ 3 ], "Difficulty": 8 },
-		{ "GeneralID": 1045, "GeneralName": "神农", "HitPoint": 40, "GeneralSkill": 1056, "DefaultSkin": "shennong", "IsAvailable": 1, "IsAvailableStartTimeStr": "2026-02-05 08:00:00", "IsAvailableEndTimeStr": "2026-02-25 23:59:59", "IsTimeLimit": 1, "SelectDialogSoundEffect":[ "shennong" ], "SearchKey": "shennong神农", "GeneralOrder": 1, "Difficulty": 7 },
+		{ "GeneralID": 1045, "GeneralName": "神农", "HitPoint": 40, "GeneralSkill": 1056, "DefaultSkin": "shennong", "IsAvailable": 1, "SelectDialogSoundEffect":[ "shennong" ], "SearchKey": "shennong神农", "GeneralOrder": 1, "Difficulty": 7, "IsBingeSaturdayPrivilege": 1 },
 		{ "GeneralID": 1046, "GeneralName": "姜子牙", "HitPoint": 40, "GeneralSkill": 1058, "DefaultSkin": "jiangziya", "IsAvailable": 1, "IsAvailableStartTimeStr": "2026-02-23 08:00:00", "IsAvailableEndTimeStr": "2026-03-12 23:59:59", "IsTimeLimit": 1, "SelectDialogSoundEffect":[ "jiangziya" ], "SearchKey": "jiangziya姜子牙", "GeneralOrder": 2, "Difficulty": 7 },
 		{ "GeneralID": 1999, "GeneralName": "董卓", "HitPoint": 60, "GeneralSkill": 1031, "DefaultSkin": "dongzhuo", "IsAvailable": 0, "SelectDialogSoundEffect":[ "dongzhuo" ], "SearchKey": "dongzhuo董卓" }
 	], 
@@ -6457,7 +6457,8 @@
 		{ "SoundEffectID": 121, "Name": 1016, "ResourceName": "ShenLuXunCardToChess" },
 		{ "SoundEffectID": 122, "Name": 1017, "ResourceName": "ShenLuXunLanding" },
 		{ "SoundEffectID": 123, "Name": 1018, "ResourceName": "ShenLuXunLandingGolden" },
-		{ "SoundEffectID": 124, "Name": 1019, "ResourceName": "ShenLuXunTransformGolden" }
+		{ "SoundEffectID": 124, "Name": 1019, "ResourceName": "ShenLuXunTransformGolden" },
+		{ "SoundEffectID": 125, "Name": 1020, "ResourceName": "ArmorBroken" }
 	], 
 	"ChessSkillConf":[
 		{ "SkillID": 10161, "SkillName": "白起", "SkillDesc": "战斗开始时，使全体友方获得破军：永久获得+1/+1", "IsScenarioSkill": 1, "IsRepeatedWork": 1, "SkillPriority": 3, "TriggerTyp": 5, "TriggerTimes": 1, "ActivateRatio": 100, "TargetTyp1": 6, "TargetPara1": 101612, "SkillBuff1":[ 10163 ], "AffiliatedSkill": 1016, "ChessBuffTips": "绝伐|破军：永久获得+1/+1" },
