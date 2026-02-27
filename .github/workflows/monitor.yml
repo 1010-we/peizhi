@@ -33,17 +33,13 @@ jobs:
           echo "当前 ETag: [$ETAG_TEN]"
           echo "当前 Last-Modified: [$LASTMOD_TEN]"
           
-          LAST_ETAG_TEN=$(cat .etag-cache/etag_ten.txt 2>/dev/null || echo "")
-          LAST_MOD_TEN=$(cat .etag-cache/mod_ten.txt 2>/dev/null || echo "")
-          
-          CHANGED_TEN=false
-          if [ -n "$ETAG_TEN" ] && ([ "$ETAG_TEN" != "$LAST_ETAG_TEN" ] || [ "$LASTMOD_TEN" != "$LAST_MOD_TEN" ]); then
-            echo "十周年配置已更新"
+          # 无论如何都保存当前值
+          if [ -n "$ETAG_TEN" ]; then
             echo "$ETAG_TEN" > .etag-cache/etag_ten.txt
             echo "$LASTMOD_TEN" > .etag-cache/mod_ten.txt
-            CHANGED_TEN=true
+            echo "已保存十周年 ETag"
           else
-            echo "十周年配置无变化"
+            echo "警告: 无法获取十周年 ETag"
           fi
           
           echo "=== 检查OL配置 ==="
@@ -53,35 +49,28 @@ jobs:
           echo "当前 ETag: [$ETAG_OL]"
           echo "当前 Last-Modified: [$LASTMOD_OL]"
           
-          LAST_ETAG_OL=$(cat .etag-cache/etag_ol.txt 2>/dev/null || echo "")
-          LAST_MOD_OL=$(cat .etag-cache/mod_ol.txt 2>/dev/null || echo "")
-          
-          CHANGED_OL=false
-          if [ -n "$ETAG_OL" ] && ([ "$ETAG_OL" != "$LAST_ETAG_OL" ] || [ "$LASTMOD_OL" != "$LAST_MOD_OL" ]); then
-            echo "OL配置已更新"
+          # 无论如何都保存当前值
+          if [ -n "$ETAG_OL" ]; then
             echo "$ETAG_OL" > .etag-cache/etag_ol.txt
             echo "$LASTMOD_OL" > .etag-cache/mod_ol.txt
-            CHANGED_OL=true
+            echo "已保存OL ETag"
           else
-            echo "OL配置无变化"
-          fi
-          
-          if [ "$CHANGED_TEN" = true ] || [ "$CHANGED_OL" = true ]; then
-            echo "has_change=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_change=false" >> $GITHUB_OUTPUT
+            echo "警告: 无法获取OL ETag"
           fi
 
       - name: 提交ETag缓存
-        if: steps.check.outputs.has_change == 'true'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          
+          echo "=== .etag-cache 目录内容 ==="
+          ls -la .etag-cache/ || echo ".etag-cache 目录不存在"
+          
           git add -f .etag-cache/
           git status
           
           if git diff --staged --quiet; then
-            echo "没有变化需要提交"
+            echo "ETag 无变化"
           else
             git commit -m "更新ETag缓存 $(date +'%Y-%m-%d %H:%M:%S')"
             git remote set-url origin https://x-access-token:${{ secrets.READONLY_TOKEN }}@github.com/${{ github.repository }}.git
