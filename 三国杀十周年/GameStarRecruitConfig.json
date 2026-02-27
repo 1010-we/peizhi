@@ -1,8 +1,0 @@
-{
-	"Tool": "github.com/davyxu/tabtoy",
-	"Version": "3.1.3",
-	"DoNotUseThis":[
-	], 
-	"GeneralStarLookForConf":[
-		{ "ConfID": 1, "ShowStartTimeStr": "2019-10-01 00:00:00", "StartTimeStr": "2019-10-01 00:00:00", "EndTimeStr": "2219-12-07 23:59:59", "ShowEndTimeStr": "2219-12-07 23:59:59", "ExchangeEndTimeStr": "2219-12-08 23:59:59", "ConsumeConf":[ { "GeneralStarLookForType": 1, "ItemID": 200007, "ItemNum": 1, "SpecialDropPeriod": 10 }, { "GeneralStarLookForType": 2, "ItemID": 200007, "ItemNum": 10, "SpecialDropPeriod": 10 } ], "FilterShowItemIDs":[ 720002, 790005 ], "PreviewDropItems":[ 200601 ], "Desc": "1、有机会招募到SSS强力限定武将！|2、招募十次，保底必得SS及以上的武将和一个破界石。|3、重复武将有概率分解得到多倍将符。" }
-	]}
