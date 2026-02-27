@@ -1,0 +1,12 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"FlyingKiteConf":[
+		{ "ConfID": 10005, "ItemID": 762428, "Grade": 1, "HeightRange":[ { "Min": 21, "Max": 39, "Weight": 100 } ], "Points": { "ItemID": 710278, "ItemNum": 1 }, "CanMake": 0, "FlightTime": 3600, "SpeedItem": 762433, "DropID": 310052, "FlyHeight": 100, "JumpId": 1931, "PcJumpId": 15 },
+		{ "ConfID": 10006, "ItemID": 762429, "Grade": 2, "HeightRange":[ { "Min": 21, "Max": 39, "Weight": 0 }, { "Min": 40, "Max": 59, "Weight": 96 }, { "Min": 60, "Max": 65, "Weight": 4 } ], "Points": { "ItemID": 710278, "ItemNum": 3 }, "CanMake": 1, "MakeConsume":[ { "ItemID": 710272, "ItemNum": 1 }, { "ItemID": 710277, "ItemNum": 1 } ], "MakeFailedReturn":[ { "ItemID": 710272, "ItemNum": 1 } ], "FlightTime": 7200, "SuccRate": 100, "SpeedItem": 762433, "DropID": 310053, "FlyHeight": 110, "JumpId": 1931, "PcJumpId": 15 },
+		{ "ConfID": 10007, "ItemID": 762430, "Grade": 3, "HeightRange":[ { "Min": 21, "Max": 59, "Weight": 0 }, { "Min": 60, "Max": 79, "Weight": 97 }, { "Min": 80, "Max": 85, "Weight": 3 } ], "Points": { "ItemID": 710278, "ItemNum": 6 }, "CanMake": 1, "MakeConsume":[ { "ItemID": 710273, "ItemNum": 1 }, { "ItemID": 710277, "ItemNum": 1 } ], "MakeFailedReturn":[ { "ItemID": 710273, "ItemNum": 1 } ], "FlightTime": 10800, "SuccRate": 100, "SpeedItem": 762433, "DropID": 310054, "FlyHeight": 120, "JumpId": 1931, "PcJumpId": 15 },
+		{ "ConfID": 10008, "ItemID": 762431, "Grade": 4, "HeightRange":[ { "Min": 21, "Max": 79, "Weight": 0 }, { "Min": 80, "Max": 99, "Weight": 98 }, { "Min": 100, "Max": 105, "Weight": 2 } ], "Points": { "ItemID": 710278, "ItemNum": 12 }, "CanMake": 1, "MakeConsume":[ { "ItemID": 710274, "ItemNum": 1 }, { "ItemID": 710277, "ItemNum": 3 } ], "MakeFailedReturn":[ { "ItemID": 710274, "ItemNum": 1 } ], "FlightTime": 14400, "SuccRate": 100, "SpeedItem": 762433, "DropID": 310055, "FlyHeight": 130, "JumpId": 1931, "PcJumpId": 15 },
+		{ "ConfID": 10009, "ItemID": 762432, "Grade": 5, "HeightRange":[ { "Min": 21, "Max": 99, "Weight": 0 }, { "Min": 100, "Max": 120, "Weight": 100 } ], "Points": { "ItemID": 710278, "ItemNum": 30 }, "CanMake": 1, "MakeConsume":[ { "ItemID": 710275, "ItemNum": 1 }, { "ItemID": 710277, "ItemNum": 5 } ], "MakeFailedReturn":[ { "ItemID": 710275, "ItemNum": 1 } ], "FlightTime": 14400, "SuccRate": 100, "SpeedItem": 762433, "DropID": 310056, "FlyHeight": 140, "JumpId": 1931, "PcJumpId": 15 }
+	]}
