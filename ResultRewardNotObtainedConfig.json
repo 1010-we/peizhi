@@ -1,0 +1,26 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"ResultRewardList":[
+		{ "ConfID": 1, "ItemID": 100004, "ItemNum": 5, "Probability": 30 },
+		{ "ConfID": 2, "ItemID": 100005, "ItemNum": 5, "Probability": 30 },
+		{ "ConfID": 3, "ItemID": 100010, "ItemNum": 5, "Probability": 30 },
+		{ "ConfID": 6, "ItemID": 100003, "ItemNum": 15, "Probability": 10 },
+		{ "ConfID": 7, "ItemID": 100003, "ItemNum": 16, "Probability": 10 },
+		{ "ConfID": 8, "ItemID": 100003, "ItemNum": 17, "Probability": 10 },
+		{ "ConfID": 9, "ItemID": 100003, "ItemNum": 18, "Probability": 10 },
+		{ "ConfID": 10, "ItemID": 100003, "ItemNum": 19, "Probability": 10 },
+		{ "ConfID": 11, "ItemID": 100003, "ItemNum": 20, "Probability": 10 },
+		{ "ConfID": 12, "ItemID": 100003, "ItemNum": 21, "Probability": 10 },
+		{ "ConfID": 13, "ItemID": 100003, "ItemNum": 22, "Probability": 10 },
+		{ "ConfID": 14, "ItemID": 100003, "ItemNum": 23, "Probability": 10 },
+		{ "ConfID": 15, "ItemID": 100003, "ItemNum": 24, "Probability": 10 },
+		{ "ConfID": 16, "ItemID": 100003, "ItemNum": 25, "Probability": 10 },
+		{ "ConfID": 17, "ItemID": 100003, "ItemNum": 26, "Probability": 10 },
+		{ "ConfID": 18, "ItemID": 100003, "ItemNum": 27, "Probability": 10 },
+		{ "ConfID": 19, "ItemID": 100003, "ItemNum": 28, "Probability": 10 },
+		{ "ConfID": 20, "ItemID": 100003, "ItemNum": 29, "Probability": 10 },
+		{ "ConfID": 21, "ItemID": 100003, "ItemNum": 30, "Probability": 10 }
+	]}

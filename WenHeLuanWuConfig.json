@@ -1,0 +1,18 @@
+{
+	"Tool": "github.com/davyxu/tabtoy",
+	"Version": "3.1.3",
+	"DoNotUseThis":[
+	], 
+	"WenHeLuanWuConf":[
+		{ "Rank": 1, "Title": "入主长安", "AchieveAppraise": "恭喜主公入主长安！一统天下指日可待！", "FailedAppraise": "您有如此惊天之才！竟愿隐居山野，实在难得！", "Score": 20 },
+		{ "Rank": 2, "Title": "一人之下", "AchieveAppraise": "如今主公只在一人之下，真是可喜可贺！", "FailedAppraise": "真是可惜，只差一步就成功了！", "Score": 15 },
+		{ "Rank": 3, "Title": "名震天下", "AchieveAppraise": "主公已成就一番丰功伟业，文和愿随您更上一层楼！", "FailedAppraise": "革命尚未成功，同志还需努力！", "Score": 10 },
+		{ "Rank": 4, "Title": "名震天下", "AchieveAppraise": "主公已成就一番丰功伟业，文和愿随您更上一层楼！", "FailedAppraise": "革命尚未成功，同志还需努力！", "Score": 7 },
+		{ "Rank": 5, "Title": "一方豪强", "AchieveAppraise": "这个成绩虽然不怎么样，但也算如愿以偿吧！", "FailedAppraise": "看得出你已经很努力了，但事与愿违！", "Score": 5 },
+		{ "Rank": 6, "Title": "一方豪强", "AchieveAppraise": "这个成绩虽然不怎么样，但也算如愿以偿吧！", "FailedAppraise": "看得出你已经很努力了，但事与愿违！", "Score": 3 },
+		{ "Rank": 7, "Title": "初出茅庐", "FailedAppraise": "哼！这么快就出局了，下次继续努力吧。", "Score": 2 },
+		{ "Rank": 8, "Title": "初出茅庐", "FailedAppraise": "哼！这么快就出局了，下次继续努力吧。", "Score": 1 }
+	], 
+	"WenHeLuanWuCommonConf":[
+		{ "ConfID": 1, "Desc": "文和乱武通用配置", "FixedOrderRoleCount": 4, "SwitchGameAreaWaitTime": 5, "FirstGameArea": 4, "GameAreaList":[ 4, 5, 6, 7, 8, 9, 10 ], "Reward":[ { "rank": 1, "itemId": 710182, "itemNum": 30 }, { "rank": 2, "itemId": 710182, "itemNum": 20 }, { "rank": 3, "itemId": 710182, "itemNum": 15 }, { "rank": 4, "itemId": 710182, "itemNum": 10 }, { "rank": 5, "itemId": 710182, "itemNum": 5 }, { "rank": 6, "itemId": 710182, "itemNum": 3 }, { "rank": 7, "itemId": 710182, "itemNum": 0 }, { "rank": 8, "itemId": 710182, "itemNum": 0 } ], "PoJunAddNum": { "hurt": 1, "kill": 1, "threeKill": 1 }, "PoJunLessNum": 50, "PoJunLevel": { "Level1": 5, "Level2": 15, "Level3": 50, "Level4": 100 }, "PoJunDesc":[ "锁定技，出牌阶段内你可以多使用一张【杀】。", "锁定技，出牌阶段内你可以多使用一张【杀】。【杀】和伤害类锦囊对敌方角色伤害+1，以此法对敌方角色造成伤害后，对随机一名其他敌方角色造成1点伤害。", "锁定技，你使用牌无距离限制，出牌阶段内你可以多使用两张【杀】。【杀】和伤害类锦囊对敌方角色伤害+1，以此法对敌方角色造成伤害后，对随机两名其他敌方角色造成1~2点伤害。", "锁定技，你使用牌无距离限制，出牌阶段内你可以多使用三张【杀】，【杀】和伤害类锦囊对敌方角色伤害+X（X为你的体力值），以此法对敌方角色造成伤害后，对其他所有敌方角色造成2~3点伤害。" ] }
+	]}
