@@ -161,7 +161,7 @@
 		{ "ConfID": 23, "StartTimeStr": "2026-03-02 08:00:00", "EndTimeStr": "2026-03-03 07:59:59", "Riddle": "养猪专业户（打一武将名）", "Answer": "管亥", "AnswerCount": 3, "Resource": "lantern3" },
 		{ "ConfID": 24, "StartTimeStr": "2026-03-02 08:00:00", "EndTimeStr": "2026-03-03 07:59:59", "Riddle": "黑子说话！快说话！（打一武将名）", "Answer": "张郃", "AnswerCount": 3, "Resource": "lantern4" },
 		{ "ConfID": 25, "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-03 23:59:59", "Riddle": "活马不救（打一武将名）", "Answer": "司马懿", "AnswerCount": 3, "Resource": "lantern5" },
-		{ "ConfID": 26, "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-03 23:59:59", "Riddle": "室内户外大清扫（打一武将名）", "Answer": "普净和尚", "AnswerCount": 3, "Resource": "lantern6" },
+		{ "ConfID": 26, "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-03 23:59:59", "Riddle": "过完龙年过马年，蛇年排在羊前面（打一武将名）", "Answer": "马超", "AnswerCount": 3, "Resource": "lantern6" },
 		{ "ConfID": 27, "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-03 23:59:59", "Riddle": "笼子里点蜡烛    （打一武将名）", "Answer": "诸葛亮", "AnswerCount": 3, "Resource": "lantern7" }
 	], 
 	"ActivityNewYearPrizeDraw":[
