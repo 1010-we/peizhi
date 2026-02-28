@@ -2824,7 +2824,7 @@
 		{ "CharacterId": 8158, "Name": "可爱之神", "country": 5, "hp": 3, "Spell":[ 3596 ], "gender": 2 },
 		{ "CharacterId": 8156, "Name": "抉择之神", "country": 5, "hp": 4, "Spell":[ 3594 ], "gender": 2 },
 		{ "CharacterId": 8159, "Name": "委屈之神", "country": 5, "hp": 3, "Spell":[ 3595 ], "gender": 2 },
-		{ "CharacterId": 8155, "Name": "睡眠之神", "country": 5, "hp": 4, "Spell":[ 3593 ], "gender": 2 },
+		{ "CharacterId": 8155, "Name": "睡眠之神", "country": 5, "hp": 3, "Spell":[ 3593 ], "gender": 2 },
 		{ "CharacterId": 8157, "Name": "美腿之神", "country": 5, "hp": 3, "Spell":[ 3597, 3598 ], "gender": 1 },
 		{ "CharacterId": 8160, "Name": "宫百万", "country": 4, "hp": 4, "Spell":[ 3599 ], "gender": 2 },
 		{ "CharacterId": 8161, "Name": "玉米猫", "country": 4, "hp": 4, "gender": 2 },
