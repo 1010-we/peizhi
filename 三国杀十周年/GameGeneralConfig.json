@@ -3252,7 +3252,10 @@
 		{ "GeneralID": 2223, "StartTime": "2026-02-15 00:00:00", "EndTime": "2026-02-25 23:59:59", "ShowText": "珍宝获得", "SortId": 1 },
 		{ "GeneralID": 2236, "StartTime": "2026-02-15 00:00:00", "EndTime": "2026-02-25 23:59:59", "ShowText": "祈福获得", "SortId": 2 },
 		{ "GeneralID": 1850, "StartTime": "2026-02-15 00:00:00", "EndTime": "2026-02-25 23:59:59", "ShowText": "纳贤获得", "SortId": 3 },
-		{ "GeneralID": 1712, "StartTime": "2026-02-15 00:00:00", "EndTime": "2026-02-25 23:59:59", "ShowText": "充值获得", "SortId": 4 }
+		{ "GeneralID": 1712, "StartTime": "2026-02-15 00:00:00", "EndTime": "2026-02-25 23:59:59", "ShowText": "充值获得", "SortId": 4 },
+		{ "GeneralID": 1639, "StartTime": "2026-03-03 00:00:00", "EndTime": "2026-03-12 23:59:59", "ShowText": "珍宝获得", "SortId": 1 },
+		{ "GeneralID": 2317, "StartTime": "2026-03-03 00:00:00", "EndTime": "2026-03-12 23:59:59", "ShowText": "纳贤获得", "SortId": 2 },
+		{ "GeneralID": 1703, "StartTime": "2026-03-03 00:00:00", "EndTime": "2026-03-12 23:59:59", "ShowText": "充值获得", "SortId": 3 }
 	], 
 	"GeneralSystemRecommendConf":[
 		{ "ConfID": 1, "Apply": 0, "From": 1, "Type": 1, "GeneralID":[ 16, 19, 24, 74, 31, 22 ], "Param":[ 1500002, 1500003, 1500004, 1500005, 1500006, 1500007 ], "ShowNum": 1, "ShowText": "成长任务" },

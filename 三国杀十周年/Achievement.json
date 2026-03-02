@@ -58574,6 +58574,25 @@
       "startActiveTime": "2026-02-15 00:00:00"
     },
     {
+      "Id": "51302",
+      "category": "1",
+      "level": "3",
+      "point": "50",
+      "name": "闪闪元宵",
+      "title": "闪闪元宵",
+      "unlockAchievement": "0",
+      "unlockLevel": "0",
+      "characterId": "0",
+      "figure": "0",
+      "gameMode": "0",
+      "flags": "6",
+      "desc": "2026年闪闪盛典活动纪念战功",
+      "picId": "51302",
+      "requirementCount": "0",
+      "sortIndex": "51302",
+      "startActiveTime": "2026-03-03 00:00:00"
+    },
+    {
       "Id": "60001",
       "category": "0",
       "point": "0",
