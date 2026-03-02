@@ -273,7 +273,7 @@
 		{ "ConfID": 49, "RuleType": 71, "EnterType": 1, "ModeID": 401, "IsMainPush": 1, "SortID": 2, "ModeNameRes": "48", "ModeRes": "48", "ModeName": "三国杀自走棋", "StartTimeStr": "2024-10-24 02:00:00", "EndTimeStr": "2044-01-01 01:00:00", "IsShowHome": 1 },
 		{ "ConfID": 50, "RuleType": 5, "EnterType": 1, "ModeID": 111, "IsNew": 1, "SortID": 3, "ModeNameRes": "48", "ModeRes": "48", "ModeName": "开黑妙妙杀", "StartTimeStr": "2025-04-29 10:00:00", "EndTimeStr": "2025-05-12 23:59:59", "IsShowHome": 1, "ShowTime": "4/29~5/12" },
 		{ "ConfID": 51, "RuleType": 78, "EnterType": 1, "ModeID": 601, "SortID": 10, "ModeNameRes": "49", "ModeRes": "49", "ModeName": "喵喵杯", "StartTimeStr": "2026-03-03 08:00:00", "EndTimeStr": "2026-03-16 01:59:59", "IsShowHome": 1, "ShowTime": "3/3~3/16" },
-		{ "ConfID": 52, "RuleType": 79, "EnterType": 1, "ModeID": 402, "IsNew": 1, "SortID": 9, "ModeNameRes": "50", "ModeRes": "50", "ModeName": "马上来财", "StartTimeStr": "2026-02-05 05:00:00", "EndTimeStr": "2026-03-02 02:00:00", "IsShowHome": 1, "ShowTime": "2/5~3/2", "NewEndTimeStr": "2026-02-25 10:00:00", "NeedPopRule": 1 }
+		{ "ConfID": 52, "RuleType": 79, "EnterType": 1, "ModeID": 402, "IsNew": 1, "SortID": 9, "ModeNameRes": "50", "ModeRes": "50", "ModeName": "马上来财", "StartTimeStr": "2026-02-05 05:00:00", "EndTimeStr": "2026-03-02 23:59:59", "IsShowHome": 1, "ShowTime": "2/5~3/2", "NewEndTimeStr": "2026-02-25 10:00:00", "NeedPopRule": 1 }
 	], 
 	"ActivityModeRoomConf":[
 		{ "ModeID": 23, "RuleID": 9, "YlShopID": 1700045, "YbShopID": 1200157 },
