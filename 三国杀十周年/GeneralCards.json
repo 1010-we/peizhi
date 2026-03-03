@@ -2860,7 +2860,7 @@
 		{ "GeneralId": 84, "GeneralName": "貂蝉", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 3, "MaxHp": 3, "GeneralSpellId":[ 68, 3542 ], "IsFlg": true },
 		{ "GeneralId": 85, "GeneralName": "华雄", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 6, "MaxHp": 6, "GeneralSpellId":[ 696, 2750 ] },
 		{ "GeneralId": 27, "GeneralName": "黄忠", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 297 ] },
-		{ "GeneralId": 28, "GeneralName": "魏延", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 295, 3544 ], "IsFlg": true },
+		{ "GeneralId": 28, "GeneralName": "魏延", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 3545, 3544 ], "IsFlg": true },
 		{ "GeneralId": 29, "GeneralName": "夏侯渊", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 3546, 3547 ], "IsFlg": true },
 		{ "GeneralId": 30, "GeneralName": "曹仁", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 370, 371 ] },
 		{ "GeneralId": 31, "GeneralName": "小乔", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 3, "MaxHp": 3, "GeneralSpellId":[ 382, 3548 ], "IsFlg": true },
