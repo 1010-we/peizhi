@@ -16076,7 +16076,8 @@
 		{ "ID": 15, "MaintenanceStartTime": "2025-08-21 08:00:00", "MaintenanceEndTime": "2025-08-21 10:00:00" },
 		{ "ID": 16, "MaintenanceStartTime": "2025-11-06 08:00:00", "MaintenanceEndTime": "2025-11-06 10:00:00" },
 		{ "ID": 17, "MaintenanceStartTime": "2026-01-08 08:00:00", "MaintenanceEndTime": "2026-01-08 10:00:00" },
-		{ "ID": 18, "MaintenanceStartTime": "2026-01-22 08:00:00", "MaintenanceEndTime": "2026-01-22 10:00:00" }
+		{ "ID": 18, "MaintenanceStartTime": "2026-01-22 08:00:00", "MaintenanceEndTime": "2026-01-22 10:00:00" },
+		{ "ID": 19, "MaintenanceStartTime": "2026-03-05 08:00:00", "MaintenanceEndTime": "2026-03-05 10:00:00" }
 	], 
 	"ChessApexTaskConf":[
 		{ "ID": 1001, "AffiliatedApex": 1, "TaskDesc": "[自走棋]首次招募武将", "Priority": 3, "TaskCondition": 1, "TaskConditionPara": { "Count": 1 }, "TaskCompleteType": 1, "IsRookieComplete": 1, "TaskReward":[ { "ItemID": 401202402, "Num": 10 } ], "NotifyBattleServer": 0 },
