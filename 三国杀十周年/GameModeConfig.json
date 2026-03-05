@@ -684,9 +684,9 @@
 	], 
 	"RookieGiftCustomGameConf":[
 		{ "ConfID": 1, "IsOpen": 1, "IsFirstStage": 1, "Star": 9, "UnlockStageID": 2, "GeneralID": 414, "GroupID": 1 },
-		{ "ConfID": 2, "IsOpen": 1, "Star": 9, "GeneralID": 414, "GroupID": 1, "ShopID": 1650005, "PCBg": "liuyan.png" },
+		{ "ConfID": 2, "IsOpen": 1, "Star": 9, "GeneralID": 414, "GroupID": 1, "PCBg": "liuyan.png" },
 		{ "ConfID": 3, "IsOpen": 0, "IsFirstStage": 1, "Star": 23, "UnlockStageID": 4, "GeneralID": 1004, "GroupID": 2 },
-		{ "ConfID": 4, "IsOpen": 0, "Star": 23, "GeneralID": 1004, "GroupID": 2, "ShopID": 1660023, "PCBg": "wannian.png" }
+		{ "ConfID": 4, "IsOpen": 0, "Star": 23, "GeneralID": 1004, "GroupID": 2, "PCBg": "wannian.png" }
 	], 
 	"AchiConf":[
 		{ "AchiID": 1, "ModeID":[ 8, 9, 41, 43, 44, 45, 49, 20, 22, 201, 301, 191, 194, 223, 48, 601 ], "AchiName": "连破", "AchiCom": 0, "AchiCount": 2, "AchiDesc": "一回合击破所有敌方" },
