@@ -2560,7 +2560,7 @@
 		{ "CharacterId": 9414, "Name": "张辽", "country": 1, "hp": 4, "gender": 1 },
 		{ "CharacterId": 1335, "Name": "乐大乔", "country": 3, "hp": 3, "Spell":[ 2574, 2575 ], "gender": 2 },
 		{ "CharacterId": 1336, "Name": "乐小乔", "exType": 76, "country": 3, "hp": 3, "Spell":[ 2574, 2576 ], "gender": 2 },
-		{ "CharacterId": 1630, "Name": "谋周瑜", "country": 3, "hp": 4, "Spell":[ 2557, 2558 ], "gender": 1 },
+		{ "CharacterId": 1630, "Name": "谋周瑜", "country": 3, "hp": 4, "Spell":[ 3840, 3841 ], "gender": 1 },
 		{ "CharacterId": 1631, "Name": "谋鲁肃", "country": 3, "hp": 3, "Spell":[ 2559, 2560 ], "gender": 1 },
 		{ "CharacterId": 1163, "Name": "曹宪", "country": 1, "hp": 3, "Spell":[ 2587, 2588 ], "gender": 2 },
 		{ "CharacterId": 1603, "Name": "星张昭", "exType": 82, "country": 3, "hp": 3, "Spell":[ 2589, 2590 ], "gender": 1 },
@@ -2628,7 +2628,7 @@
 		{ "CharacterId": 1663, "Name": "谋胡车儿", "exType": 91, "country": 4, "hp": 4, "Spell":[ 2685 ], "gender": 1 },
 		{ "CharacterId": 1501, "Name": "卞玥", "exType": 63, "country": 1, "hp": 3, "Spell":[ 2694, 2695 ], "gender": 2 },
 		{ "CharacterId": 1692, "Name": "令狐愚", "exType": 88, "country": 1, "hp": 4, "Spell":[ 2691 ], "gender": 1 },
-		{ "CharacterId": 1681, "Name": "谋程昱", "exType": 97, "country": 1, "hp": 3, "Spell":[ 2686, 2687 ], "gender": 1 },
+		{ "CharacterId": 1681, "Name": "谋程昱", "exType": 97, "country": 1, "hp": 3, "Spell":[ 3842, 3843 ], "gender": 1 },
 		{ "CharacterId": 1671, "Name": "星孙尚香", "exType": 87, "country": 3, "hp": 3, "Spell":[ 2692, 2693 ], "gender": 2 },
 		{ "CharacterId": 1700, "Name": "谋沮授", "exType": 92, "country": 4, "hp": 3, "Spell":[ 2721, 2722 ], "gender": 1 },
 		{ "CharacterId": 221, "Name": "神黄忠", "exType": 55, "country": 5, "hp": 4, "Spell":[ 345, 346 ], "gender": 1 },
@@ -2830,7 +2830,10 @@
 		{ "CharacterId": 8161, "Name": "玉米猫", "country": 4, "hp": 4, "gender": 2 },
 		{ "CharacterId": 8162, "Name": "香蕉猫", "country": 4, "hp": 4, "gender": 2 },
 		{ "CharacterId": 1728, "Name": "荀勖", "exType": 101, "country": 1, "hp": 3, "gender": 1 },
-		{ "CharacterId": 225, "Name": "神张辽", "country": 5, "hp": 4, "gender": 1 }
+		{ "CharacterId": 225, "Name": "神张辽", "country": 5, "hp": 4, "gender": 1 },
+		{ "CharacterId": 235, "country": 2, "hp": 4, "Spell":[ 538, 539, 540 ], "gender": 1 },
+		{ "CharacterId": 1729, "Name": "笛音荀勖", "exType": 101, "country": 1, "hp": 3, "Spell":[ 3600, 3601 ], "gender": 1 },
+		{ "CharacterId": 1730, "Name": "勘律荀勖", "exType": 101, "country": 1, "hp": 3, "Spell":[ 3602, 3603 ], "gender": 1 }
 	], 
 	"MiaoMiaoBeiGeneralSkillConf":[
 		{ "GeneralId": 60, "GeneralName": "刘备", "ModeId": 601, "ModeName": "喵喵杀", "InitHp": 4, "MaxHp": 4, "GeneralSpellId":[ 3523 ], "IsFlg": true },

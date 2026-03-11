@@ -109,7 +109,8 @@
 		{ "ConfID": 103, "SystemID": 96, "OpenType": 13, "Params": 30, "OpenTypeExt": 11, "ParamsExt": 2343, "StartTimeStr": "2001-11-08 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 },
 		{ "ConfID": 104, "SystemID": 97, "OpenType": 1, "Params": 20, "StartTimeStr": "2001-11-08 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 },
 		{ "ConfID": 105, "SystemID": 99, "OpenType": 1, "Params": 13, "StartTimeStr": "2001-11-08 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 },
-		{ "ConfID": 106, "SystemID": 98, "OpenType": 2, "Params": 50, "StartTimeStr": "2025-10-23 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 }
+		{ "ConfID": 106, "SystemID": 98, "OpenType": 2, "Params": 50, "StartTimeStr": "2025-10-23 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 },
+		{ "ConfID": 107, "SystemID": 101, "OpenType": 2, "Params": 100, "OpenTypeExt": 12, "ParamsExt": 15, "StartTimeStr": "2001-01-01 04:00:00", "HideType": 1, "NeedOpenAnimate": 0, "NeedShow": 0 }
 	], 
 	"GameSysteamConf":[
 		{ "SysteamID": 1, "SysteamName": "日常" },

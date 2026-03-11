@@ -2286,6 +2286,8 @@
 		{ "Code": 191071, "Error": "BE_NaXianActivityReceiveCountLimit", "Msg": "纳贤活动领取道具过多", "IsShow": 1 },
 		{ "Code": 191072, "Error": "BE_NaXianActivityReceiveNumGiveOut", "Msg": "纳贤活动无可领次数", "IsShow": 1 },
 		{ "Code": 191073, "Error": "BE_NaXianActivityReceiveCountNotEnough", "Msg": "纳贤活动领取次数不足", "IsShow": 1 },
+		{ "Code": 191074, "Error": "BE_ActivityOpenChestConsumeItemError", "Msg": "宝箱活动消耗道具错误", "IsShow": 1 },
+		{ "Code": 191075, "Error": "BE_NaXianActivityConsumeItemError", "Msg": "纳贤活动消耗道具错误", "IsShow": 1 },
 		{ "Code": 100280, "Error": "BE_TableStartUserDataNotLoad", "Msg": "数据加载中", "IsShow": 1 },
 		{ "Code": 100281, "Error": "BE_TableReadyUserDataNotLoad", "Msg": "数据加载中", "IsShow": 1 },
 		{ "Code": 100282, "Error": "BE_TableStartWorldBossFaction", "Msg": "游戏开始 有玩家势力不对", "IsShow": 1 },
@@ -3385,5 +3387,9 @@
 		{ "Code": 451543, "Error": "BE_LanternRiddleActivityShareConfNotFind", "Msg": "分享配置不存在", "IsShow": 1 },
 		{ "Code": 106072, "Error": "BE_LandlordEveryDayReceiveConfNotExist", "Msg": "斗地主每日金豆配置不存在", "IsShow": 1 },
 		{ "Code": 106073, "Error": "BE_LandlordEveryDayReceiveHaveNumTooMuch", "Msg": "斗地主每日金豆已有数量过多", "IsShow": 1 },
-		{ "Code": 106074, "Error": "BE_LandlordEveryDayReceiveAlreadyReceive", "Msg": "斗地主每日金豆今日已领取", "IsShow": 1 }
+		{ "Code": 106074, "Error": "BE_LandlordEveryDayReceiveAlreadyReceive", "Msg": "斗地主每日金豆今日已领取", "IsShow": 1 },
+		{ "Code": 105032, "Error": "BE_GeneralBatchUpdateNumReachMax", "Msg": "武将快捷升阶数量达到上限", "IsShow": 1 },
+		{ "Code": 105033, "Error": "BE_GeneralBatchUpdateGeneralRepeated", "Msg": "武将快捷升阶武将重复", "IsShow": 1 },
+		{ "Code": 105034, "Error": "BE_GeneralBatchUpdateGradationLevel", "Msg": "武将等阶不匹配", "IsShow": 1 },
+		{ "Code": 105035, "Error": "BE_GeneralBatchUpdateConsumeItem", "Msg": "武将快捷升阶道具消耗不匹配", "IsShow": 1 }
 	]}
