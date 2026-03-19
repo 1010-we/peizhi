@@ -57,5 +57,7 @@
 		{ "SeasonID": 77, "StartTimeStr": "2026-01-24 00:00:00", "EndTimeStr": "2026-01-31 23:59:59", "SpriteChips":[ 745040 ], "SpriteItems":[ 504 ], "RateDesc": "占A级碎片掉率的50%" },
 		{ "SeasonID": 77, "StartTimeStr": "2026-01-24 00:00:00", "EndTimeStr": "2026-01-31 23:59:59", "SpriteChips":[ 744020 ], "SpriteItems":[ 402 ], "RateDesc": "占B级碎片掉率的50%" },
 		{ "SeasonID": 78, "StartTimeStr": "2026-02-08 00:00:00", "EndTimeStr": "2026-02-14 23:59:59", "SpriteChips":[ 745130 ], "SpriteItems":[ 513 ], "RateDesc": "占A级碎片掉率的50%" },
-		{ "SeasonID": 78, "StartTimeStr": "2026-02-08 00:00:00", "EndTimeStr": "2026-02-14 23:59:59", "SpriteChips":[ 744050 ], "SpriteItems":[ 405 ], "RateDesc": "占B级碎片掉率的50%" }
+		{ "SeasonID": 78, "StartTimeStr": "2026-02-08 00:00:00", "EndTimeStr": "2026-02-14 23:59:59", "SpriteChips":[ 744050 ], "SpriteItems":[ 405 ], "RateDesc": "占B级碎片掉率的50%" },
+		{ "SeasonID": 79, "StartTimeStr": "2026-03-20 00:00:00", "EndTimeStr": "2026-03-27 23:59:59", "SpriteChips":[ 745110 ], "SpriteItems":[ 511 ], "RateDesc": "占A级碎片掉率的50%" },
+		{ "SeasonID": 79, "StartTimeStr": "2026-03-20 00:00:00", "EndTimeStr": "2026-03-27 23:59:59", "SpriteChips":[ 744010 ], "SpriteItems":[ 401 ], "RateDesc": "占B级碎片掉率的50%" }
 	]}

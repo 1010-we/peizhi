@@ -48514,7 +48514,7 @@
       "picId": "40001354",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2026-03-20 00:00:00",
       "CriteriaEntry": {
         "Id": "1210",
         "count": "1",
@@ -48554,10 +48554,10 @@
       "gameMode": "",
       "flags": "1024",
       "desc": "使用谋法正在一局游戏内通过”悉性“获得其他角色5张牌。",
-      "picId": "40003774",
+      "picId": "40002316",
       "requirementCount": "0",
       "sortIndex": "0",
-      "startActiveTime": "2077-04-04 00:00:00",
+      "startActiveTime": "2026-03-20 00:00:00",
       "CriteriaEntry": {
         "Id": "1211",
         "count": "5",

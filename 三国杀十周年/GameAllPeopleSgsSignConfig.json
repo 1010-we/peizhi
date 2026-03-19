@@ -420,5 +420,12 @@
 		{ "ID": 414, "NormalTaskID": 60226016, "MemberTaskID": 60226021, "TaskClientType": 1666 },
 		{ "ID": 415, "NormalTaskID": 60226017, "MemberTaskID": 60226022, "TaskClientType": 1666 },
 		{ "ID": 416, "NormalTaskID": 60226018, "MemberTaskID": 60226023, "TaskClientType": 1666 },
-		{ "ID": 417, "NormalTaskID": 60226019, "MemberTaskID": 60226024, "TaskClientType": 1666 }
+		{ "ID": 417, "NormalTaskID": 60226019, "MemberTaskID": 60226024, "TaskClientType": 1666 },
+		{ "ID": 418, "NormalTaskID": 60320002, "MemberTaskID": 60320009, "TaskClientType": 1698 },
+		{ "ID": 419, "NormalTaskID": 60320003, "MemberTaskID": 60320010, "TaskClientType": 1698 },
+		{ "ID": 420, "NormalTaskID": 60320004, "MemberTaskID": 60320011, "TaskClientType": 1698 },
+		{ "ID": 421, "NormalTaskID": 60320005, "MemberTaskID": 60320012, "TaskClientType": 1698 },
+		{ "ID": 422, "NormalTaskID": 60320006, "MemberTaskID": 60320013, "TaskClientType": 1698 },
+		{ "ID": 423, "NormalTaskID": 60320007, "MemberTaskID": 60320014, "TaskClientType": 1698 },
+		{ "ID": 424, "NormalTaskID": 60320008, "MemberTaskID": 60320015, "TaskClientType": 1698 }
 	]}

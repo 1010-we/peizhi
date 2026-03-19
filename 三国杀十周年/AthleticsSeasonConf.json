@@ -1106,7 +1106,11 @@
 		{ "ConfID": 718, "GeneralID": 1729, "GeneralName": "笛音荀勖", "HuanLeProb": 10, "WinRate": 5000, "NewMatchWinRate": 3000, "FightLandlordProb": 10, "FightLandlordMatchScore": 9000, "ShenFenIntenseScore": 4355 },
 		{ "ConfID": 719, "GeneralID": 1730, "GeneralName": "勘律荀勖", "HuanLeProb": 10, "WinRate": 4465, "NewMatchWinRate": 2000, "FightLandlordProb": 10, "FightLandlordMatchScore": 6000, "ShenFenIntenseScore": 4725 },
 		{ "ConfID": 720, "GeneralID": 1066, "GeneralName": "曹豹", "HuanLeProb": 12, "FightLandlordProb": 12, "FightLandlordMatchScore": 5000 },
-		{ "ConfID": 721, "GeneralID": 1506, "GeneralName": "刘璿", "HuanLeProb": 12, "FightLandlordProb": 12, "FightLandlordMatchScore": 5000 }
+		{ "ConfID": 721, "GeneralID": 1506, "GeneralName": "刘璿", "HuanLeProb": 12, "FightLandlordProb": 12, "FightLandlordMatchScore": 5000 },
+		{ "ConfID": 722, "GeneralID": 2316, "GeneralName": "谋法正", "HuanLeProb": 10, "NewMatchWinRate": 2313, "FightLandlordProb": 10, "FightLandlordMatchScore": 6500, "ShenFenIntenseScore": 4355 },
+		{ "ConfID": 723, "GeneralID": 1354, "GeneralName": "阎象", "HuanLeProb": 10, "NewMatchWinRate": 2456, "FightLandlordProb": 10, "FightLandlordMatchScore": 6000, "ShenFenIntenseScore": 4725 },
+		{ "ConfID": 724, "GeneralID": 2238, "GeneralName": "威张星彩", "HuanLeProb": 12, "FightLandlordProb": 12, "FightLandlordMatchScore": 7000 },
+		{ "ConfID": 725, "GeneralID": 2318, "GeneralName": "谋张任", "HuanLeProb": 12, "FightLandlordProb": 12, "FightLandlordMatchScore": 6000 }
 	], 
 	"AthleticGroupGeneralConf":[
 		{ "ConfID": 1, "GeneralIDs":[ 1, 1682 ], "NewMatchGroupWinRateSeat":[ 2227 ] },

@@ -2191,7 +2191,11 @@
 		{ "ConfID": 12006, "GeneralID": 1639, "ModeID": 190, "GeneralName": "谋庞统", "PeakGeneralRateType": 5, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
 		{ "ConfID": 12007, "GeneralID": 1639, "ModeID": 191, "GeneralName": "谋庞统", "PeakGeneralRateType": 5, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
 		{ "ConfID": 12008, "GeneralID": 2317, "ModeID": 190, "GeneralName": "谋吴懿", "PeakGeneralRateType": 4, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
-		{ "ConfID": 12009, "GeneralID": 2317, "ModeID": 191, "GeneralName": "谋吴懿", "PeakGeneralRateType": 4, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 }
+		{ "ConfID": 12009, "GeneralID": 2317, "ModeID": 191, "GeneralName": "谋吴懿", "PeakGeneralRateType": 4, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
+		{ "ConfID": 12010, "GeneralID": 2316, "ModeID": 190, "GeneralName": "谋法正", "PeakGeneralRateType": 3, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
+		{ "ConfID": 12011, "GeneralID": 2316, "ModeID": 191, "GeneralName": "谋法正", "PeakGeneralRateType": 3, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
+		{ "ConfID": 12012, "GeneralID": 1354, "ModeID": 190, "GeneralName": "阎象", "PeakGeneralRateType": 3, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 },
+		{ "ConfID": 12013, "GeneralID": 1354, "ModeID": 191, "GeneralName": "阎象", "PeakGeneralRateType": 3, "IsEmperor": 0, "GeneralProb": 1, "GeneralType": 3 }
 	], 
 	"PeakAthleticsSeasonInheritConf":[
 		{ "ConfID": 1990, "ModeIDType": 190, "Season": 34, "ScoreSection":[ 0, 1200 ], "NextSeasonSectionStartScore": 1200, "NextSeasonSectionScorePercent": 0 },
